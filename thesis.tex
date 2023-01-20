@@ -1,0 +1,104 @@
+\documentclass[a4paper, binding=0.6cm, noexaminfo, english]{sapthesis}
+
+\usepackage{microtype}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{framed}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\hypersetup{
+	pdftitle={Data Leak Detection in Mobile Application},
+	pdfauthor={Nicola Iommazzo}
+}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\lstdefinestyle{mystyle}{   
+    backgroundcolor=\color{lightgray},
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                   
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\title{Data Leak Detection in Mobile Applications}
+\subtitle{Confidentiality of Personal Data}
+\author{Iommazzo Nicola}
+\IDnumber{1693395}
+\course{Engineering in Computer Science}
+\courseorganizer{Dipartimento di Ingegneria Informatica, Automatica e Gestionale}
+\AcademicYear{2022/2023}
+\advisor{Prof. Leonardo Querzoni}
+\coadvisor{Pierluigi Pierini}
+\coadvisor{Paolo Piccolo}
+\thesistype{Master thesis}
+\copyyear{2023}
+\authoremail{iommazzo.1693395@studenti.uniroma1.it}
+
+\begin{document}
+
+	\frontmatter
+	
+		\maketitle
+	
+		\input{acknowledgments.tex}
+		\input{abstract.tex}
+
+		\tableofcontents
+
+	\mainmatter
+	
+		\input{chapters/introduction.tex}
+		\input{chapters/fundamentals.tex}
+		\input{chapters/testing_environment.tex}
+		\input{chapters/use_cases.tex}
+		\input{chapters/conclusion.tex}
+
+	\backmatter
+
+		\cleardoublepage
+		\phantomsection
+		\addcontentsline{toc}{chapter}{\bibname}
+		
+		\begin{thebibliography}{99}
+			\bibitem{European Commission} European Commission - What is personal data \newline
+			\url{https://commission.europa.eu/law/law-topic/data-protection/reform/what-personal-data_en}
+			\bibitem{android_dev_tips} Android Developers - Security with network protocols \newline
+			\url{https://developer.android.com/training/articles/security-ssl}
+			\bibitem{image_tcp_tls_handshake} Cloudflare - TLS Handshake \newline
+			\url{https://www.cloudflare.com/it-it/learning/ssl/what-happens-in-a-tls-handshake/}
+			\bibitem{image_tls_certificate_verification} Okta Developer - Certificate Validation \newline
+			\url{https://developer.okta.com/books/api-security/tls/certificate-verification/#tls-certificate-verification}	
+			\bibitem{certificate_pinning} Digicert - What is certificate pinning \newline
+			\url{https://digicert.com/blog/certificate-pinning-what-is-certificate-pinning}				
+			\bibitem{HPKP_suicide} Scotthelme.co.uk - Using security features to do bad things \newline
+			\url{https://scotthelme.co.uk/using-security-features-to-do-bad-things/}
+			\bibitem{android_ssl_pinning} Appmattus Medium - Android Security SSL Pinning \newline
+			\url{https://appmattus.medium.com/android-security-ssl-pinning-1db8acb6621e}	
+			\bibitem{rootAVD} GitHub - rootAVD \newline
+			\url{https://github.com/newbit1/rootAVD}
+			\bibitem{adb} Android Developers - Android Debug Bridge \newline
+			\url{https://developer.android.com/studio/command-line/adb}
+			\bibitem{http_toolkit} Http Toolkit - Docs \newline
+			\url{https://httptoolkit.com/docs/}
+				
+
+		\end{thebibliography}
+
+\end{document}
+
+

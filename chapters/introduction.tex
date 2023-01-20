@@ -1,0 +1,42 @@
+\chapter{Introduction}
+	
+	\par Mobile applications are now part of our daily life. Everyone of us make use of different applications during their daily routine. There are applications for literally every kind of necessity: we would like to know what the weather will be like in the next days in our city, we would like to keep track of our fitness training that every morning we do in the neighbourhood, or we would like to know how the traffic is on the way back to our home. Using these applications is becoming a real habit, and like any other habit we do not ask ourselves anymore why are we doing it, or how are we doing it.
+	\par Going through the years it is becoming much more common to hear about the terms \textit{data breaches} or \textit{data leak} on a multitude of online applications. The whole amount of data that users has put in their account can be exposed to leak of this kind. \newline
+	Nowadays people tend to use applications without even realise the amount of informations they are delivering to the network, profile pictures, email addresses and phone numbers, and so on. All of these data are private informations, maybe the user does not like to share to everyone else, but just with the system on order to get the customized experience the application is offering. \newline 
+	\par Mobile applications handle private data of millions of different users, therefore it is mandatory checking the robustness and any kind of protection implemented in the application, in order to make it resilient to possible leaks of user informations.
+	
+	\section{Personal Data}
+		\par The concept of personal data is something I would like to make clear. There are multiple definitions and laws defining the scope of this kind of informations. As stated by the European Commission~\cite{European Commission}:
+		\begin{framed}
+			\textit{
+				Personal data is any information that relates to an identified or identifiable living individual. Different pieces of information, which collected together can lead to the identification of a particular person, also contribute personal data. \newline
+				\indent Personal data that has been de-identified, encrypted or pseudonymised but can be used to re-identify a person remains personal data and falls within the scope of the GDPR. [...] \newline
+				\indent The GDPR protects personal data regardless of the technology used for processing that data - it is technology neutral and applies to both automated and manual processing. [...]
+			}
+		\end{framed}
+		\par Practical examples of informations falling in the category of personal data are - name and surname, address, phone number, date of birth, but also photographs, ip addresses, location informations. \newline
+		\par Dealing with mobile applications, personal informations are often typed in directly by the user, most likely at the moment of the creation of a new user profile, but not only. Some personal data might be shared automatically during the use of such application, like ip address or advertising phone identifier. \newline
+		These information not necessarily are mandatory to access the services offered by the application. Personal data might contribute to some advertising service bundled within the application to keep track of the user data, or these data might be sent to some logging service implemented in the application in order to retrieve statistics on the users utilizing that application. 
+	
+	\section{Goals}
+		\par Goal of the study in this thesis is to check if software features expose it to the risk of providing more information than planned. \newline
+		A mobile application might share private informations with or without our accord in different moment while using it. For instance our contact list might be shared while using an application when synchronizing our friend list.
+		\par Goal is therefore ensuring there is no leak of private data for the whole activity and at any moment for a specific application.
+		\newline
+		\par The work was conducted by examining applications running on Android operative system. Different mobile applications have been analyzed belonging to three different area of interests:
+		\begin{itemize}
+			\item \underline{Weather}: General applications \textit{without} user authentication.
+			\item \underline{Health \& Fitness}: Applications \textit{with} user authentication and \textit{some} interaction between users.
+			\item \underline{Maps \& Navigation}: Sophisticated applications  \textit{with} user authentication and \textit{continuous} interactions with server or other users.
+		\end{itemize}
+		\par The order in which the applications have been investigated has been decided basing on an increasing complexity and notoriety of them. Starting from weather forecast applications that generally do not require any kind of user authentication, going through fitness applications that let the user customize and share fitness routines to other users, and finally analyzing applications that manage geographical informations to retrieve real time traffic data.
+		 
+	\section{Methodologies}
+		\par Since the goal is to detect any personal data leak while using the application, dynamic analysis is the main method used to investigate applications behaviour. In particular each mobile application has been inspected starting from the \textbf{network traffic analysis}, generated by the application at runtime. \newline
+		Every action carried out by the user in the context of an application will generate some request to a server. Notice that mobile applications do not communicate only with the server offering that service. Indeed in the implementation of a mobile application there are different activities, each one provide a different service - for example advertisement services, logging services, push notification services, and so on. Every request is therefore generated by the application and might potentially include our personal data.		
+		\par Where the network sniffing offered a spotlight for some in-depth study, a \textbf{static analysis} has been adopted going through an examination of the code of the application. Static analysis on an Android application is really dispersive and time consuming. An Android Package file (APK) can contain hundreds of thousands of Java classes. The majority of the compiled applications is stripped from the symbols, so methods and classes names cannot be directly found in the source code. Most of the time a simple obfuscation method like symbols stripping combined with the high number of classes, it is sufficient to hide something very interesting, for instance the method used to compute the \textit{Authorization header} in an HTTP request.
+		\par To know more about the static and dynamic analysis tools I used in the practice, go to Chapter \ref{chap:testing_environment}.
+				
+	\section{Collaboration with IPS}
+		\par Da definire ...
+
