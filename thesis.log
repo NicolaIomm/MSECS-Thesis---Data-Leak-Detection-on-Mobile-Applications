@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.12)  18 JAN 2023 20:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.12)  20 JAN 2023 13:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -24,8 +24,8 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 
 (d:/TexLive/2022/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
-(d:/TexLive/2022/texmf-dist/tex/latex/base/bk11.clo
-File: bk11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(d:/TexLive/2022/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count186
 \c@chapter=\count187
@@ -512,8 +512,18 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 21.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 52
+(d:/TexLive/2022/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(d:/TexLive/2022/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip65
+\multirow@cntb=\count311
+\multirow@dima=\skip66
+\bigstrutjot=\dimen193
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 27.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 58
 .
 
 (d:/TexLive/2022/texmf-dist/tex/latex/lm/t1lmr.fd
@@ -521,7 +531,7 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 (d:/TexLive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-08-30 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count311
+\l__color_backend_stack_int=\count312
 \l__pdf_internal_box=\box56
 )
 
@@ -531,24 +541,24 @@ LaTeX Warning: Unused global option(s):
 (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -566,18 +576,18 @@ LaTeX Font Info:    ... okay on input line 52.
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=396.0pt
-* \textheight=636.60028pt
+* \textheight=635.5pt
 * \oddsidemargin=15.2454pt
 * \evensidemargin=41.72249pt
 * \topmargin=-6.51018pt
 * \headheight=12.0pt
 * \headsep=19.8738pt
-* \topskip=11.0pt
-* \footskip=27.46295pt
+* \topskip=12.0pt
+* \footskip=30.0pt
 * \marginparwidth=72.0pt
 * \marginparsep=12.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -593,16 +603,16 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 (d:/TexLive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count312
-\scratchdimen=\dimen193
+\scratchcounter=\count313
+\scratchdimen=\dimen194
 \scratchbox=\box57
-\nofMPsegments=\count313
-\nofMParguments=\count314
+\nofMPsegments=\count314
+\nofMParguments=\count315
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count315
-\MPscratchDim=\dimen194
-\MPnumerator=\count316
-\makeMPintoPDFobject=\count317
+\MPscratchCnt=\count316
+\MPscratchDim=\dimen195
+\MPnumerator=\count317
+\makeMPintoPDFobject=\count318
 \everyMPtoPDFconversion=\toks34
 ) (d:/TexLive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -613,38 +623,40 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \textsubscript on input line 52.
-LaTeX Info: Redefining \microtypecontext on input line 52.
-Package microtype Info: Applying patch `item' on input line 52.
-Package microtype Info: Applying patch `toc' on input line 52.
-Package microtype Info: Applying patch `eqnum' on input line 52.
-Package microtype Info: Applying patch `footnote' on input line 52.
+LaTeX Info: Redefining \textsubscript on input line 58.
+LaTeX Info: Redefining \microtypecontext on input line 58.
+Package microtype Info: Applying patch `item' on input line 58.
+Package microtype Info: Applying patch `toc' on input line 58.
+Package microtype Info: Applying patch `eqnum' on input line 58.
+
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 58.
+
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 52.
+LaTeX Info: Redefining \showhyphens on input line 58.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-
 (d:/TexLive/2022/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Package hyperref Info: Link coloring ON on input line 52.
+Package hyperref Info: Link coloring ON on input line 58.
  (./thesis.out)
 (./thesis.out)
 \@outlinefile=\write3
 \openout3 = `thesis.out'.
 
-\c@lstlisting=\count318
-\SAP@parboxindent=\skip65
-\SAP@parboxwidth=\skip66
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 5
-7.
+\c@lstlisting=\count319
+\SAP@parboxindent=\skip67
+\SAP@parboxwidth=\skip68
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 6
+3.
  (d:/TexLive/2022/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -655,7 +667,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 <sapienzalogo.pdf, id=233, 288.07625pt x 89.33376pt>
 File: sapienzalogo.pdf Graphic file (type pdf)
 <use sapienzalogo.pdf>
-Package pdftex.def Info: sapienzalogo.pdf  used on input line 57.
+Package pdftex.def Info: sapienzalogo.pdf  used on input line 63.
 (pdftex.def)             Requested size: 142.26378pt x 44.11742pt.
  [1
 
@@ -663,47 +675,47 @@ Package pdftex.def Info: sapienzalogo.pdf  used on input line 57.
 
 {d:/TexLive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <d:/TexLive/2022
 /texmf-dist/tex/latex/sapthesis/sapienzalogo.pdf>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5
-7.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 6
+3.
 
 (d:/TexLive/2022/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
 
  []
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
-7.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
+3.
 (d:/TexLive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
-7.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
+3.
 
 (d:/TexLive/2022/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-57.
+63.
 
 (d:/TexLive/2022/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-57.
+63.
 
 (d:/TexLive/2022/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 57.
+(Font)              <10.95> on input line 63.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 57.
+(Font)              <8> on input line 63.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 57.
+(Font)              <6> on input line 63.
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
 
  []
 
@@ -714,31 +726,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--8
 
  []
 
-) (./abstract.tex [3
+) (./abstract.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3
 
 
 ] [4
 
-]) [5] [6
+])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5] [6
 
 ] (./thesis.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 3.
- [7])
+(Font)              <12> on input line 3.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[7])
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
- [8]
-(./chapters/introduction.tex
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[8] (./chapters/introduction.tex
 Chapter 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [1
 
@@ -749,48 +804,131 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
  []
 
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 24--26
 
  []
 
-[2]) (./chapters/fundamentals.tex [3] [4
 
-]
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3]) (./chapters/fundamentals.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4]
 Chapter 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
-[5]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5
+
+]
 <images/tcp-tls-handshake.png, id=368, 2928.9425pt x 1673.25125pt>
 File: images/tcp-tls-handshake.png Graphic file (type png)
 <use images/tcp-tls-handshake.png>
 Package pdftex.def Info: images/tcp-tls-handshake.png  used on input line 21.
 (pdftex.def)             Requested size: 316.80121pt x 180.96886pt.
- [6 <./images/tcp-tls-handshake.png>]
-<images/tls-certificate-verification.png, id=377, 3011.25pt x 1883.035pt>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6]
+<images/tls-certificate-verification.png, id=376, 3011.25pt x 1883.035pt>
 File: images/tls-certificate-verification.png Graphic file (type png)
 <use images/tls-certificate-verification.png>
 Package pdftex.def Info: images/tls-certificate-verification.png  used on input
  line 34.
 (pdftex.def)             Requested size: 316.80121pt x 198.08366pt.
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[7 <./images/tcp-tls-handshake.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-[7 <./images/tls-certificate-verification.png>]
+
+Underfull \vbox (badness 3250) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[8 <./images/tls-certificate-verification.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
 
-[8]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
@@ -800,78 +938,187 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-[9]
+
 Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
-) (./chapters/testing_environment.tex [10]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[11]) (./chapters/testing_environment.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[12]
 Chapter 3.
-<./images/avd_splitted.png, id=409, 819.06pt x 658.71094pt>
-File: ./images/avd_splitted.png Graphic file (type png)
-<use ./images/avd_splitted.png>
-Package pdftex.def Info: ./images/avd_splitted.png  used on input line 18.
-(pdftex.def)             Requested size: 356.39758pt x 286.6274pt.
 
-Underfull \vbox (badness 1297) has occurred while \output is active []
+Underfull \vbox (badness 7362) has occurred while \output is active []
 
- [11
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[13
 
 ]
-(d:/TexLive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+[]\T1/lmr/m/n/12 (+20) system-images/android-
+ []
+
+
+Overfull \hbox (28.33858pt too wide) in paragraph at lines 17--40
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[14] (d:/TexLive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 (d:/TexLive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
+Overfull \hbox (0.7548pt too wide) in paragraph at lines 47--48
+[]\T1/lmr/m/n/12 (-20) Once cre-ated the new vir-tual de-vice (in my case calle
+d \T1/lmr/m/it/12 (-20) ''Pixel_3a_API_33_-
+ []
+
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 22.
+nput line 48.
 
-Underfull \vbox (badness 1389) has occurred while \output is active []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
- [12 <./images/avd_splitted.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
- []
-
-
-Underfull \vbox (badness 1383) has occurred while \output is active []
-
- [13]
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
-[14]) (./chapters/use_cases.tex [15] [16
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+) (./chapters/use_cases.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[18]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[19] [20
 
 ]
 Chapter 4.
 ) (./chapters/conclusion.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
-Overfull \vbox (105.0518pt too high) has occurred while \output is active []
 
 
-[18]
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[21]
+Overfull \vbox (358.64531pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[22]
 Chapter 5.
-) [19
+)
 
-] [20
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[23
+
+] [24
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7
-9.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 8
+5.
  (d:/TexLive/2022/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -880,74 +1127,79 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
-[][]$\T1/lmtt/m/n/10.95 https : / / commission . europa . eu / law / law-[]topi
-c / data-[]protection /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--84
-[][]$\T1/lmtt/m/n/10.95 https : / / www . cloudflare . com / it-[]it / learning
- / ssl /
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 84--86
-[][]$\T1/lmtt/m/n/10.95 https : / / developer . okta . com / books / api-[]secu
-rity / tls /
+[][]$\T1/lmtt/m/n/12 https : / / commission . europa . eu / law / law-[]topic /
+ data-[]protection /
  []
 
 
-Overfull \hbox (48.66582pt too wide) in paragraph at lines 86--88
-[][]$\T1/lmtt/m/n/10.95 https : / / digicert . com / blog / certificate-[]pinni
-ng-[]what-[]is-[]certificate-[]pinning$[][] 
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+[][]$\T1/lmtt/m/n/12 https : / / www . cloudflare . com / it-[]it / learning / 
+ssl /
  []
 
 
-Overfull \hbox (7.77493pt too wide) in paragraph at lines 88--90
-[][]$\T1/lmtt/m/n/10.95 https : / / scotthelme . co . uk / using-[]security-[]f
-eatures-[]to-[]do-[]bad-[]things/$[][] 
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
+[][]$\T1/lmtt/m/n/12 https : / / developer . okta . com / books / api-[]securit
+y / tls /
  []
 
 
-Overfull \hbox (30.91962pt too wide) in paragraph at lines 90--92
-[][]$\T1/lmtt/m/n/10.95 https : / / appmattus . medium . com / android-[]securi
-ty-[]ssl-[]pinning-[]1db8acb6621e$[][] 
+Overfull \hbox (81.42812pt too wide) in paragraph at lines 92--94
+[][]$\T1/lmtt/m/n/12 https : / / digicert . com / blog / certificate-[]pinning-
+[]what-[]is-[]certificate-[]pinning$[][] 
  []
 
-[21
+
+Overfull \hbox (37.4681pt too wide) in paragraph at lines 94--96
+[][]$\T1/lmtt/m/n/12 https : / / scotthelme . co . uk / using-[]security-[]feat
+ures-[]to-[]do-[]bad-[]things/$[][] 
+ []
+
+
+Overfull \hbox (62.3891pt too wide) in paragraph at lines 96--98
+[][]$\T1/lmtt/m/n/12 https : / / appmattus . medium . com / android-[]security-
+[]ssl-[]pinning-[]1db8acb6621e$[][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[25
 
 
 ] (./thesis.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A1530417D288DEC6FD7E7B4CC945D99C;8106.
+(rerunfilecheck)             Checksum: 05037E562C8467786D002EF24E9C1C71;8106.
  ) 
 Here is how much of TeX's memory you used:
- 17642 strings out of 475075
- 282417 string characters out of 5783001
- 870059 words of memory out of 5000000
- 38413 multiletter control sequences out of 15000+600000
- 558493 words of font info for 185 fonts, out of 8000000 for 9000
+ 17708 strings out of 475075
+ 283904 string characters out of 5783001
+ 880016 words of memory out of 5000000
+ 38489 multiletter control sequences out of 15000+600000
+ 545039 words of font info for 169 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,13n,131p,1223b,1234s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,13n,131p,1222b,1234s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {d:/TexLive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{d:/TexLive/2022/tex
 mf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{d:/TexLive/2022/texmf-dist/fonts/enc/
 dvips/lm/lm-ts1.enc}<d:/TexLive/2022/texmf-dist/fonts/type1/public/lm/lmbx10.pf
 b><d:/TexLive/2022/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><d:/TexLive/2022
 /texmf-dist/fonts/type1/public/lm/lmr10.pfb><d:/TexLive/2022/texmf-dist/fonts/t
-ype1/public/lm/lmr7.pfb><d:/TexLive/2022/texmf-dist/fonts/type1/public/lm/lmri1
-0.pfb><d:/TexLive/2022/texmf-dist/fonts/type1/public/lm/lmss10.pfb><d:/TexLive/
-2022/texmf-dist/fonts/type1/public/lm/lmss12.pfb><d:/TexLive/2022/texmf-dist/fo
-nts/type1/public/lm/lmss17.pfb><d:/TexLive/2022/texmf-dist/fonts/type1/public/l
-m/lmssbx10.pfb><d:/TexLive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><d:
-/TexLive/2022/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on thesis.pdf (29 pages, 552446 bytes).
+ype1/public/lm/lmr12.pfb><d:/TexLive/2022/texmf-dist/fonts/type1/public/lm/lmr8
+.pfb><d:/TexLive/2022/texmf-dist/fonts/type1/public/lm/lmri12.pfb><d:/TexLive/2
+022/texmf-dist/fonts/type1/public/lm/lmss12.pfb><d:/TexLive/2022/texmf-dist/fon
+ts/type1/public/lm/lmss17.pfb><d:/TexLive/2022/texmf-dist/fonts/type1/public/lm
+/lmssbx10.pfb><d:/TexLive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><d:/
+TexLive/2022/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on thesis.pdf (33 pages, 518814 bytes).
 PDF statistics:
- 568 PDF objects out of 1000 (max. 8388607)
- 500 compressed objects within 5 object streams
- 108 named destinations out of 1000 (max. 500000)
- 54237 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 587 PDF objects out of 1000 (max. 8388607)
+ 515 compressed objects within 6 object streams
+ 111 named destinations out of 1000 (max. 500000)
+ 46040 words of extra memory for PDF output out of 51595 (max. 10000000)
 

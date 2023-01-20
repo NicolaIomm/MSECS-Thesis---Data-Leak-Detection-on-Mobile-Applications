@@ -13,11 +13,37 @@
 		
 		\subsection{Android Virtual Device (AVD)}
 			\par For my purpose study case I created an \textit{Android Virtual Device} (AVD) phone with the same properties of the \textit{Pixel 3a} phone developed by Google, that is \textit{5.6''} screen size, \textit{1080x2220} resolution, \textit{440dpi} density. The device is running \textit{Android 13}, also known as \textit{Tiramisu} version, or \textit{API 33}, on \textit{x86\_64} architecture. In the really first step while selecting the hardware we would like to use for the virtual device, some device definitions are enabled to run the Play Store software, and so it is for our Pixel 3a device. This is really useful since I had not to download and install manually each applications on the device. Indeed it is made possible using the Google Play store directly from the emulated device. Here there is the full property list of the device I used:
-			\begin{figure}[ht]    
-				\centering   
-				\includegraphics[width=0.9\textwidth]{./images/avd_splitted.png}
-			    	\caption{Android Virtual Device (AVD) specifics}
-			\end{figure}
+			\begin{center}
+				\begin{tabular}{ |p{5cm}||p{9cm}| }
+					 \hline
+					 \multicolumn{2}{|c|}{Android Virtual Device (AVD) Properties} \\
+					 \hline
+					 avd.ini.displayname & Pixel 3a API 33 - Data Leak Detection \\
+					 AvdId & Pixel\_3a\_API\_33\_-\_Data\_Leak\_Detection \\
+					 image.androidVersion.api & 33 \\
+					 image.sysdir.1 & system-images/android-33/google\_apis\_playstore/x86\_64/ \\
+					 tag.id & google\_apis\_playstore \\
+					 hw.device.name & pixel\_3a \\
+					 hw.device.manufacturer & Google \\
+					 hw.cpu.ncore & 4 \\
+					 hw.ramSize & 1536 \\
+					 vm.heapSize & 228 \\
+					 hw.lcd.width & 1080 \\
+					 hw.lcd.height & 2220 \\
+					 hw.gpu.enabled & yes \\
+					 hw.gps & yes \\					 
+					 hw.accelerometer & yes \\
+					 runtime.network.speed & full\\
+					 runtime.network.latency & none \\
+					 \hline
+				\end{tabular}
+			\end{center}
+
+			%\begin{figure}[!ht]    
+				%\centering   
+				%\includegraphics[width=0.9\textwidth]{./images/avd_splitted.png}
+			    	%\caption{Android Virtual Device (AVD) specifics}
+			%\end{figure}
 			\par Once created the new virtual device (in my case called \textit{''Pixel\_3a\_API\_33\_-\_Data\_Leak\_Detection''}), it is possible to run it through the Android Device Manager. For simplicity I created a simple \textit{.bat} file to run the virtual device without the need to open Android Studio everytime. Indeed there is a file called \textit{emulator.exe} in a the folder where we installed the Android SDK. We can simply open the emulator by command line passing the name of our AVD and some optional arguments. Here it is how my command looks like:
 \begin{lstlisting}[language=bash, caption={run\_AVD.bat}]
 	C:\<Android_folder>\Sdk\emulator\emulator -feature -Vulkan -memory 2048 -netdelay none -netspeed full -avd Pixel_3a_API_33_-_Data_Leak_Detection
@@ -30,26 +56,26 @@
 		
 		\subsection{Android Debug Bridge (adb)}
 			\par As I said Android Studio offers a complete set of features to run and test android application. In particular by installing the \textit{Android SDK Platform Tools} package from Android Studio, we will obtain a set of tools that make possible the debug of our application. \newline
-			One of the most important tools is the Android Debug Bridge, more noticed as \textit{adb}. It is a command line tool that let the user directly communicate with an android device, let it be a real device or a physical one. Basically it is a client-server program that runs both on our machine and android device. There is then a client, that is the command line tool, a daemon \textit{adbd} running in the background of the android device, and a server managing the connection between client and daemon. For a complete understanding of the adb tool check the Android Developer guide \cite{adb}.
+			One of the most important tools is the Android Debug Bridge, more noticed as \textit{adb}. It is a command line tool that let the user directly communicate with an Android device, let it be a physical or emulated device. Basically it is a client-server program that runs both on our machine and Android device. There is then a client, that is the command line tool, a daemon \textit{adbd} running in the background of the Android device, and a server managing the connection between client and daemon. For a complete understanding of the adb tool check the Android Developer guide \cite{adb}.
 		
 	\section{Network traffic analysis}
-		\par Once the virtual device is well configured as described above, let's start introducing some tools used in the study case. Each one of them has some strengths, one tool might works for an application but not work for another. They are listed below in order of complexity. \textit{HttpToolkit} and \textit{BurpSuite} are network traffic interceptors, that means every connection outgoing from our device will be intercepted by these applications, letting the user to inspect more or less accurately how the request are formed. \textit{Wireshark} on the other way is a packet sniffing tool, meaning that it will capture any packet in the network, regardless of the protocol or port of them. 
+		\par Once the virtual device is well configured as described above, let's start introducing some network tool I used for my study cases. Each one of them has some strengths, one tool might works for an application but not work for another. They are listed below in order of complexity. \textit{HttpToolkit} and \textit{BurpSuite} are network traffic interceptors, that means every connection outgoing from our device will be intercepted by these applications, letting the user to inspect more or less accurately how the request were formed. \textit{Wireshark} on the other way is a packet sniffing tool, meaning that it will capture any packet in the network, regardless of the protocol or the port used. 
 		
 		\subsection{HttpToolkit}
 		\label{sec:http_toolkit}
-			\par HttpToolkit\cite{http_toolkit} is an open-source tool for debugging, testing and building with HTTP(S). The strength of this tool relies on its simplicity for configuring the environment. Once downloaded the application it requires to connect to a source of traffic. In this case the network source to monitor is the android virtual device where the applications will run. HttpToolkit provides a variety of available sources, from the most famous browser (Chrome, Firefox, Safari, Edge), up to more complicated environment, such as Docker containers, virtual machines, Android devices or iOS devices. HttpToolkit itself will notify the user on which are the available sources of traffic at the start up. Since the scope of the study is investigating applications running on the android emulator, it is needed to download from Google Play the HttpToolkit application also on the virtual device. Once installed the android app, the HttpToolkit running on the computer will automatically notice the new source called \textit{''Android device via ADB''}. Just click on it and the whole proxy system is automatically configured. \newline
+			\par HttpToolkit\cite{http_toolkit} is an open-source tool for debugging, testing and building with HTTP(S). The strength of this tool relies on its simplicity for configuring the environment. Once downloaded the application it requires to be connected to a source of traffic. HttpToolkit provides a variety of available sources, from the most famous browser (Chrome, Firefox, Safari, Edge), up to more complicated environment, such as Docker containers, virtual machines, Android devices or iOS devices. In this case the network source to monitor is the Android virtual device where the applications will run. The program itself will notify the user which are the available sources of traffic at the start up. Since the scope of the study is investigating applications running on the android emulator, it is needed to download from Google Play the HttpToolkit application also on the virtual device. Once installed the android app, the HttpToolkit running on the computer will automatically notice the new source called \textit{''Android device via ADB''}. Just click on it and the whole proxy system is automatically configured. \newline
 			\par In this phase it is crucial to understand what is happening:
 			\begin{itemize}
-				\item HttpToolkit is able to inject a custom certificate on our device, thanks to the ADB. Since we also have the root privileges on the android emulator, the certificate willl be placed in the folder of the \textit{System Certificates} that is \textit{/system/etc/security/cacerts} in the Android device. \newline
-				\item The respective HttpToolkit android application will be activated in order to set up a VPN, redirecting the whole network traffic directly via the Android Debug Bridge. \newline
-				\item HttpToolkit will copy to the device, again via ADB, a file containing the command used to start up the android Google Chrome application. This specific command will bypass the Certification Transparency check described in the section \ref{subsec:certification_transparency}. The command looks like the following:
+				\item HttpToolkit will inject a custom certificate on our device, communicating with it through ADB. Since we also have the root privileges on the android emulator, the certificate willl be placed in the folder of the \textit{System Certificates} that is \textit{/system/etc/security/cacerts} in the Android device. \newline
+				\item The respective HttpToolkit Android application will be activated in order to set up a VPN, redirecting the whole network traffic directly via the Android Debug Bridge to the main HttpToolkit program running on the computer. \newline
+				\item HttpToolkit will copy to the device, again via ADB, a file containing the command used to start up the Android Google Chrome application. This specific command will bypass the Certification Transparency check described in the section \ref{subsec:certification_transparency}. The command looks like the following, where \textit{cert\_digest} is the hash digest of the SSL certificate used by the tool.
 \begin{lstlisting}
 	chrome --ignore-certificate-errors-spki-list=<cert_digest>
 \end{lstlisting}
 			\end{itemize} 
-			
-			As described in the certificate verification [Section \ref{subsec:certificate_verification}] and MiTM [Section \ref{subsec:mitm}], this is the moment in which the HTTP(S) requests outgoing from the application case are intercepted by HttpToolkit, showing precisely each request detail. Then they are forwarded to the application server. Same happens for the HTTP(S) responses.
-			\par This tool requires almost no configuration on the user side, all is done automatically aside from the preparation of the AVD discussed in the above section.
+			\par All thsee steps are done automatically from the program itself. Indeed this tool requires almost no configuration on the user side, aside from the preparation of the AVD discussed in the above section.
+			\par	As described in the certificate verification [Section \ref{subsec:certificate_verification}] and MiTM [Section \ref{subsec:mitm}], this is the moment in which the HTTP(S) requests outgoing from the application case are intercepted by HttpToolkit, showing precisely each request detail. Then they are forwarded to the application server. Same happens for the HTTP(S) responses. Moreover in case certificate is rejected by the application, that means some certificate pinning procedure has been adopted, the tool will notify us.
+			\par Anyway HttpToolkit is only able to intercept the HTTP(S) protocol, that is enough for most of the Android applications. In case the application will communicate in a different protocol (QUIC for example) the requests are not visible to this tool, so we will need a different network tool.
 		
 		\subsection{BurpSuite}
 		\label{sec:burp_suite}
