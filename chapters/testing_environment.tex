@@ -9,14 +9,21 @@
 	
 	\section{Android Studio}
 		\par \textbf{Android Studio} is the center of the testing environment. Other than a complex IDE software, it provides a complete testing suite for Android mobile applications. Once installed the software, it enables the access to the Android Device Manager tool, where the user can create an emulator for a specific Android device choosing among phones, tablets, wearOS or TVs. 
-		\par In this section I will explain how I prepared the android virtual device in order to obtain a working environment that made possible the application investigation.
+		In this section I will explain how I prepared the android virtual device in order to obtain a working environment that made possible the application investigation.
 		
 		\subsection{Android Virtual Device (AVD)}
-			\par For my purpose study case I created an \textit{Android Virtual Device} (AVD) phone with the same properties of the \textit{Pixel 3a} phone developed by Google, that is \textit{5.6''} screen size, \textit{1080x2220} resolution, \textit{440dpi} density. The device is running \textit{Android 13}, also known as \textit{Tiramisu} version, or \textit{API 33}, on \textit{x86\_64} architecture. In the really first step while selecting the hardware we would like to use for the virtual device, some device definitions are enabled to run the Play Store software, and so it is for our Pixel 3a device. This is really useful since I had not to download and install manually each applications on the device. Indeed it is made possible using the Google Play store directly from the emulated device. Here there is the full property list of the device I used:
+			For my purpose study case I created an \textit{Android Virtual Device} (AVD) phone with the same properties of the \textit{Pixel 3a} phone developed by Google, that is \textit{5.6''} screen size, \textit{1080x2220} resolution, \textit{440dpi} density. The device is running \textit{Android 13}, also known as \textit{Tiramisu} version, or \textit{API 33}, on \textit{x86\_64} architecture. In the really first step while selecting the hardware we would like to use for the virtual device, some device definitions are enabled to run the Play Store software, and so it is for our Pixel 3a device. This is really useful since I had not to download and install manually each applications on the device. Indeed it is made possible using the Google Play store directly from the emulated device. 
+			\par Once created the new virtual device (in my case called \textit{''Pixel\_3a\_API\_33\_-\_Data\_Leak\_Detection''}), it is possible to run it through the Android Device Manager. For simplicity I created a simple \textit{.bat} file to run the virtual device without the need to open Android Studio everytime. Indeed there is a file called \textit{emulator.exe} in a the folder where we installed the Android SDK. We can simply open the emulator by command line passing the name of our AVD and some optional arguments. Here it is how my command looks like:
+\begin{lstlisting}[language=bash, caption={run\_AVD.bat}]
+	C:\<Android_folder>\Sdk\emulator\emulator -feature -Vulkan -memory 2048 -netdelay none -netspeed full -avd Pixel_3a_API_33_-_Data_Leak_Detection
+\end{lstlisting}
+		\par More specifically the \textit{-feature -Vulkan} argument will force the emulator to do not use the \textit{Vulkan} graphic library. Since Android API 30 lots of android applications, such as Google Chrome, use this library to boost its performance. Anyway in some devices, especially for the emulated ones, might result in a massive slow rendering time. Other arguments are specifying to dedicate 2 Gb of RAM memory for the device, to not impose limits on the network speed and to not simulate any network delay.
+			\par Here there is the full property list of the device I used:
 			\begin{center}
 				\begin{tabular}{ |p{5cm}||p{9cm}| }
 					 \hline
 					 \multicolumn{2}{|c|}{Android Virtual Device (AVD) Properties} \\
+					 \hline
 					 \hline
 					 avd.ini.displayname & Pixel 3a API 33 - Data Leak Detection \\
 					 AvdId & Pixel\_3a\_API\_33\_-\_Data\_Leak\_Detection \\
@@ -44,11 +51,6 @@
 				%\includegraphics[width=0.9\textwidth]{./images/avd_splitted.png}
 			    	%\caption{Android Virtual Device (AVD) specifics}
 			%\end{figure}
-			\par Once created the new virtual device (in my case called \textit{''Pixel\_3a\_API\_33\_-\_Data\_Leak\_Detection''}), it is possible to run it through the Android Device Manager. For simplicity I created a simple \textit{.bat} file to run the virtual device without the need to open Android Studio everytime. Indeed there is a file called \textit{emulator.exe} in a the folder where we installed the Android SDK. We can simply open the emulator by command line passing the name of our AVD and some optional arguments. Here it is how my command looks like:
-\begin{lstlisting}[language=bash, caption={run\_AVD.bat}]
-	C:\<Android_folder>\Sdk\emulator\emulator -feature -Vulkan -memory 2048 -netdelay none -netspeed full -avd Pixel_3a_API_33_-_Data_Leak_Detection
-\end{lstlisting}
-		\par More specifically the \textit{-feature -Vulkan} argument will force the emulator to do not use the \textit{Vulkan} graphic library. Since Android API 30 lots of android applications, such as Google Chrome, use this library to boost its performance. Anyway in some devices, especially for the emulated ones, might result in a massive slow rendering time. Other arguments are specifying to dedicate 2 Gb of RAM memory for the device, to not impose limits on the network speed and to not simulate any network delay.
 			
 		\subsection{Root privileges on virtual device}
 			\par After having succesfully created the AVD, it can result useful to get the \textit{root privileges} on the device. In our case it is really mandatory since what we are going to do is intercept the communication protocol in the middle between application and server. As explained in the Section \ref{subsec:mitm}, the client application needs to trust the proxy server, and this is done by checking its certificate. Starting from the release of version \textit{Nougat} (API $\ge$ 24), of Android operative system, it changed the behaviour adopted by android applications in trusting users. If before the application was checking both \textit{user certificates} and \textit{system certificates}, now it will check exclusively the installed system level certificates, therefore root privileges are mandatory. \newline
@@ -57,7 +59,7 @@
 		\subsection{Android Debug Bridge (adb)}
 			\par As I said Android Studio offers a complete set of features to run and test android application. In particular by installing the \textit{Android SDK Platform Tools} package from Android Studio, we will obtain a set of tools that make possible the debug of our application. \newline
 			One of the most important tools is the Android Debug Bridge, more noticed as \textit{adb}. It is a command line tool that let the user directly communicate with an Android device, let it be a physical or emulated device. Basically it is a client-server program that runs both on our machine and Android device. There is then a client, that is the command line tool, a daemon \textit{adbd} running in the background of the Android device, and a server managing the connection between client and daemon. For a complete understanding of the adb tool check the Android Developer guide \cite{adb}.
-		
+		\newpage
 	\section{Network traffic analysis}
 		\par Once the virtual device is well configured as described above, let's start introducing some network tool I used for my study cases. Each one of them has some strengths, one tool might works for an application but not work for another. They are listed below in order of complexity. \textit{HttpToolkit} and \textit{BurpSuite} are network traffic interceptors, that means every connection outgoing from our device will be intercepted by these applications, letting the user to inspect more or less accurately how the request were formed. \textit{Wireshark} on the other way is a packet sniffing tool, meaning that it will capture any packet in the network, regardless of the protocol or the port used. 
 		
@@ -68,11 +70,13 @@
 			\begin{itemize}
 				\item HttpToolkit will inject a custom certificate on our device, communicating with it through ADB. Since we also have the root privileges on the android emulator, the certificate willl be placed in the folder of the \textit{System Certificates} that is \textit{/system/etc/security/cacerts} in the Android device. \newline
 				\item The respective HttpToolkit Android application will be activated in order to set up a VPN, redirecting the whole network traffic directly via the Android Debug Bridge to the main HttpToolkit program running on the computer. \newline
-				\item HttpToolkit will copy to the device, again via ADB, a file containing the command used to start up the Android Google Chrome application. This specific command will bypass the Certification Transparency check described in the section \ref{subsec:certification_transparency}. The command looks like the following, where \textit{cert\_digest} is the hash digest of the SSL certificate used by the tool.
+				\item HttpToolkit will copy to the device, again via ADB, a file containing the command used to start up the Android Google Chrome application. 
 \begin{lstlisting}
 	chrome --ignore-certificate-errors-spki-list=<cert_digest>
 \end{lstlisting}
+This specific command will bypass the Certification Transparency check described in the section \ref{subsec:certification_transparency}. The command looks like the following, where \textit{cert\_digest} is the hash digest of the SSL certificate used by the tool.
 			\end{itemize} 
+			
 			\par All thsee steps are done automatically from the program itself. Indeed this tool requires almost no configuration on the user side, aside from the preparation of the AVD discussed in the above section.
 			\par	As described in the certificate verification [Section \ref{subsec:certificate_verification}] and MiTM [Section \ref{subsec:mitm}], this is the moment in which the HTTP(S) requests outgoing from the application case are intercepted by HttpToolkit, showing precisely each request detail. Then they are forwarded to the application server. Same happens for the HTTP(S) responses. Moreover in case certificate is rejected by the application, that means some certificate pinning procedure has been adopted, the tool will notify us.
 			\par Anyway HttpToolkit is only able to intercept the HTTP(S) protocol, that is enough for most of the Android applications. In case the application will communicate in a different protocol (QUIC for example) the requests are not visible to this tool, so we will need a different network tool.

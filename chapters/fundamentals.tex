@@ -3,7 +3,7 @@
 	Generally Android mobile applications are client implementations for specific services. The scenario is therefore the classic client-server communication model where each client interacts with one or more server. \newline
 	\par First of all client and server must establish a connection between them, hopefully a \textit{secure connection}. This is the first topis explained in this section. Client and server, that means mobile application and application server, agree to find a secure way to communicate each other. 
 	\par Once the connection is established there are lots of ways in which an application can send information. This is the problem of the data serialization. Informations can be represented using different Interface Description Languages (IDL). Starting from the classic JSON or XML format, passing through binary. Each representation has advantages and disadvantages. In particular there is a section dealing with an IDL that is widely used in mobile application, that is \textit{Protocol Buffer}.
-	\par After having described the interation of a standard mobile application, there is a section explaining the concept of \textit{gRPC}. As I said most of the mobile applications reflect the client-server paradigm. It is modern framework able to delegate some procedure in the client to the server, improving performance and portability of the application service.
+	\par After having described the interation of a standard mobile application, there is a section explaining the concept of RPC, and in particular the recent developed \textit{gRPC} framework. As I said most of the mobile applications reflect the client-server paradigm. It is modern framework able to delegate some procedure in the client to the server, improving performance and portability of the application service.
 	\par Finally the last section of this chapter deals with a new network procol called \textit{QUIC}, a modern evolution of the HTTP/2 protocol used by most of the recent applications.
 	
 	\section{HTTPS: HTTP over TLS}
@@ -65,11 +65,55 @@
 			\par In Android operative system, an example of application implementing the Certification Transparency mechanism is the Chrome browser. As we said above (see Certificate Verification [Section \ref{subsec:certificate_verification}]) Android certificates can be placed at system level or user level. Every application will use by default the system store to verify others certificates, and so does Chrome, if not specified differently. This application will choose whether to use the Certificate Transparency or not, basing on which store the certificate root is installed. When a certificate showed by any web service it is checked, if the root certificate met is present in the system certificates store then Chrome decides to also verify the Certificate Transparency requirement. On the other way if we are testing a web service showing a certificate that is inside the user certificates store, then the Certificate Transparency procedure is not applied.\newline 
 			
 	\section{Protocol Buffers}
-		\par 
+	\label{sec:protocol_buffer}
+		\par \textbf{Protocol Buffers}\cite{protocol_buffer}, also known as ProtoBuffers, are a language-neutral, platform-neutral extensible mechanism for serializing structured data. The development of this new mechanism started in the early 2001 from Google for private purposes. Then in the 2008 was publicly released as open-source data format. The design goal while developing Protocol Buffers was to provide a data serialization universal and faster then the standard XML. Nowadays it is widely used when an internaction between different architectures client-server is needed, that is the case for most of the Android application.
+		\par The messages exchanged are data structures described in a proto definition file \textit{.proto}. After having compiled those definitions through \textit{protoc} they can be imported in any project written in the most used programming languages. Protobuf version 2.0 was providing a code generator compatible with \textit{C++}, \textit{Java}, \textit{C\#} and \textit{Python}. The version 3.0 extended the programming language compatibility also to \textit{Go}, \textit{Ruby}, \textit{Objective-C}. Other languages are supported through third-party implementations (\textit{C},\textit{JavaScript}, \textit{Perl}, \textit{PHP}, \textit{Scala}). 
+		\par To give an idea on how the mechanism works, let's say a client-server application would like to serialize data about a \textit{Person}. In order to let both endpoint to know about the data structure \textit{Person}, both of them require to integrate in their project that data structure. The definition of \textit{Person} is done in a \textit{.proto} file:
+\begin{lstlisting}
+message Person {
+	optional string name = 1;
+	optional string email = 2;
+	optional string phone = 3;
+}
+\end{lstlisting}	
+		The proto file has to be done only once, and it is independent from the platform we will be using. To import the definition of the above \textit{Person} data structure in our project we need to run the \textit{protoc} compiler obtaining the ready-to-use structure. \newline
+		\par Since the native language for Android application is Java, running \textit{protoc} we are interested in the \textit{.java} classes generated. For each message type defined in the \textit{.proto} file will result a couple of \textit{.java} files: one will contain the definition of the object itself, the other one is the Builder for that specific object type. The first one will be provided of the standard accessor's methods (in our case \textit{hasName()}, \textit{getName()}, and so on for each field), while the second one will have both getters and setters methods (\textit{getName()}, \textit{setName()}, and so on for each field). At this point it is needed to import those definitions in \textit{.java} classes thanks to the Protocol Buffer API provided by the mechanism itself. This is a picture summarizing the whole procedure:\newline
+		\begin{figure}[ht]
+				\centering
+				\includegraphics[width=0.9\textwidth]{images/protobuffer.png}
+				\caption{Procol Buffer workflow \cite{protocol_buffer}}
+		\end{figure}
+		\par Each object already instantiated is immutable, it can only be modified through its respective Builder methods at the moment of its building. The procedure to instantiate a new \textit{Person} object in the application is respectively: 
+		\begin{enumerate}
+			\item Contruct a builder for the object. 
+			\item Set any field to any acceptable value.
+			\item Call the builder's \textit{build()} method.
+		\end{enumerate}
+		\par In particular the step 2 is made possible through the mehods provided automatically in those \textit{.java} files. Each one of them will modify the structure created at step 1, and it will return a new \textit{Builder} object, such that it can be repeatedly modified and at the end instantiated through the \textit{build()} method. \newline
+		\par The above defined \textit{Person} class, it is just an example. The Protocol Buffer mechanism is able to provide a platform-independant really complex classes with repeated fields, nested classes, constant values or even rpc services to define. At the same time the use of Protocol Buffer let the developer save time  when developing the data structures. Indeed the \textit{.proto} definition has to be done only once, and it is valid for every kind of platform that would use that type of structure.
+		
+		\subsection{Encoding}
+			
+		\par Forse aggiungere:	\url{https://developers.google.com/protocol-buffers/docs/encoding}
 
 	\section{gRPC}
-		\par 
-
+		\par \textbf{gRPC} \cite{grpc} is a cross-platform \textit{Remote Procedure Call} (RPC) framework. The mechanism was initially created by Google for private purposes, but in 2016 it was publicly released as open-source. As a remote procedure call framework, it let the developer to define in an application some methods that will actually run on a different machine from the one running the application. Generally the idea behind any RPC system is to define a \textit{service} able to execute a specific method in order to call it remotely from any another application.
+		\begin{figure}[ht]
+			\centering
+			\includegraphics[width=0.7\textwidth]{images/grpc.png}
+			\caption{gRPC workflow \cite{grpc}}
+		\end{figure}		
+		\par What makes gRPC so powerful is the fact it is based on \textit{HTTP/2} protocol for the transport layer, and uses \textit{Protocol Buffers} (described in Section \ref{sec:protocol_buffer}) as its Interface Description Language (IDL). The combination of these two mechanism let the gRPC system to provide an easy access and platform independant solution for the implementation of a RPC system. \newline
+		In a gRPC system, as any other RPC system, we can differentiate between \textit{gRPC Server} and \textit{gRPC Stub}, the part of the client implementing the gRPC framework. On the server side, the server implements the interface for the specific method it is able to execute, and handles the incoming client calls. On the client side, the gRPC Stub provides the same method as defined by the server. What really happens in the moment in which the client invoke the method is that:
+		\begin{enumerate}
+			\item The gRPC Stub serializes the parameters passed to the method using the Protocol Buffer mechanism. Then sends over an HTTP/2 connection the method request together with the serialized data.
+			\item The gRPC Server accepts the incoming request from the client and deserializes the data using the Protocol Buffer mechanism.
+			\item The gRPC Server will execute the method specified by the client.
+			\item Once the result is available, the gRPC Server sends over the HTTP/2 connection the response containing the return value for that specific method, serialized with the Protocol Buffer mechanism.
+			\item The gRPC Client deserializes the return value using the Protocol Buffer mechanism.
+		\end{enumerate}
+		\par Even if different IDLs can be specified while defining the gRPC service, JSON for example, by default the gRPC framework uses Protocol Buffers. Moreover the framework provides features like \textit{authentication} (through TLS or token-based authentication) and \textit{bidirectional streaming}.
+		
 	\section{QUIC Protocol}
 		\par 
 	
