@@ -91,10 +91,6 @@ message Person {
 		\end{enumerate}
 		\par In particular the step 2 is made possible through the mehods provided automatically in those \textit{.java} files. Each one of them will modify the structure created at step 1, and it will return a new \textit{Builder} object, such that it can be repeatedly modified and at the end instantiated through the \textit{build()} method. \newline
 		\par The above defined \textit{Person} class, it is just an example. The Protocol Buffer mechanism is able to provide a platform-independant really complex classes with repeated fields, nested classes, constant values or even rpc services to define. At the same time the use of Protocol Buffer let the developer save time  when developing the data structures. Indeed the \textit{.proto} definition has to be done only once, and it is valid for every kind of platform that would use that type of structure.
-		
-		\subsection{Encoding}
-			
-		\par Forse aggiungere:	\url{https://developers.google.com/protocol-buffers/docs/encoding}
 
 	\section{gRPC}
 		\par \textbf{gRPC} \cite{grpc} is a cross-platform \textit{Remote Procedure Call} (RPC) framework. The mechanism was initially created by Google for private purposes, but in 2016 it was publicly released as open-source. As a remote procedure call framework, it let the developer to define in an application some methods that will actually run on a different machine from the one running the application. Generally the idea behind any RPC system is to define a \textit{service} able to execute a specific method in order to call it remotely from any another application.
@@ -114,6 +110,25 @@ message Person {
 		\end{enumerate}
 		\par Even if different IDLs can be specified while defining the gRPC service, JSON for example, by default the gRPC framework uses Protocol Buffers. Moreover the framework provides features like \textit{authentication} (through TLS or token-based authentication) and \textit{bidirectional streaming}.
 		
-	\section{QUIC Protocol}
-		\par 
+	\newpage
+	\section{QUIC}
+		\par \textbf{QUIC} is a general-purpose transport layer network protocol designed by Google. It was publicly announced in 2013 and after some years under the experimental state, in the recent 2021 became a standard as defined from the Internet Engineering Task Force (IETF) in \textit{RFC 9000} \cite{rfc9000}.\newline
+		\par The main goal of QUIC is to improve the performance of the connection-oriented web applications, that for years have been run basing on TCP as transport layer network protocol. QUIC establishes a number of multiplexed connections using UDP instead, allowing multiple streams of data to reach different endpoints independently. The same concept is possible in HTTP/2 with multiplexed connections, but what really suffers this last one is the the head-of-line-blocking delays related to the connection-oriented TCP which it relies on. \newline
+		\par Briefly the \textit{Head-of-Line blocking} (HOL blocking) is an issued generally affecting every packet that need to pass through a line. If the First-In-First-Out (FIFO) method is used, the longer the packet has arrived in the queue, the higher is the priority it has to be sent over the line. With the release of HTTP/2, this issue was partially resolved through the multiplexing of multiple connection, letting multiple HTTP requests running together but still an implementation over a single TCP connection. If one packet is being lost in the transmission than the whole connection will be waiting for the retransmission of that single packet. Now in the case of a client with few connections towards a bunch of server is waiting time is neglactable, but modern Android applications are implementing different services at the same application, using both standard HTTPS requests and gRPCs with an high number of structures to serialize through Protocol Buffer towards hundreds of endpoints. In case of a packet retransmittion the performance loss will be evident.
+		\par QUIC protocol addresses this issue by relying on \textit{UDP} as transport layer protocol. UDP is a connectionless transport layer protocol without any implementation of packet orderding and retransmission, indeed every packet is forwarded to the endpoint individually, without any risk of HOL blocking problem. At the same time UDP does not provide any guarantee on the packets delivery making the whole connection unreliable. All  these checks are in fact implemented in QUIC on top of UDP, while still taking advantage of the performances achieved by UDP. Every additional connection feature, like TLS encryption, is done in the same way on top of UDP. \newline
+		\par The second goal of QUIC is to improve the connection latency between the two endpoints. Using UDP as transport layer protocol the TCP overhead needed for the connection management is already cutted off. Most of the applications will demand for TLS encryption requiring its own handshake, that would be summed up to the TCP three way handshake if using the HTTP/2 protocol. With QUIC there is no redundancy in those handshake phases. It is done only once in QUIC as showed below:
+		\newline
+		\begin{figure}[ht]
+			\centering
+			\includegraphics[width=0.8\textwidth]{images/quic_handshake.png}
+			\caption{Comparison between TCP+HTTPS and QUIC handshakes}
+		\end{figure}	
+		\par Moreover, as said above, UDP does not handle loss recovery, meaning that QUIC is also resposible for each separated controlled flow. Others improvement in terms of overall latency are adopted, for example packets are individually encrypted, so that can not result in a waiting for partial packet.\newline
+		\par Another property of QUIC is the ability to mantain its performance during network-switch events that frequently happens in mobile devices, like the connection transition between WiFi hotspot and mobile network. In HTTP/2, based on TCP, every connection is timed-out one by one and then re-established on the new network, while in QUIC at every connection is assigned an identifier that is kept even if the source ip address changes.
+		\par Lastly, QUIC is completely handled at application level. There are numerous libraries available in order to implement this protocol in an application: \textit{Cronet} developed by Google, \textit{sn2-quic} developed by Amazon Web Services, \textit{proxygen} by Facebook and so on.\newline
+		For a practical example see the application case Google Maps in Section \ref{sec:google_maps}.
 	
+		
+		\subsection{HTTP/3}
+			\par In June 2022 the IETF published \textbf{HTTP/3} as the major version of the \textit{HyperText Transfer Protocol} in \textit{RFC 9114}\cite{rfc9114}. Unlike the earlier versions of HTTP 1.1 and 2.0 based on TCP, HTTP/3 relies on QUIC, based on UDP. \newline
+			\par HTTP/3 uses the same semantics of the previous versions (request methods, status codes, message fields) but it differs in the way it mantains the connection session. Most of the changes in HTTP/3 are in the way the protocol interfaces with the underlaying transport layer. The new version of HTTP results in lower latencies and higher performance in real-world usage, mostly due to the adoption of QUIC. 
