@@ -26,35 +26,34 @@
 \contentsline {subsection}{\numberline {3.2.3}Wireshark}{26}{subsection.3.2.3}%
 \contentsline {section}{\numberline {3.3}Dynamic instrumentation}{27}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Frida}{27}{subsection.3.3.1}%
-\contentsline {subsubsection}{SSL Keylog}{27}{section*.7}%
-\contentsline {subsection}{\numberline {3.3.2}Objection}{27}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}Static instrumentation}{27}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}GDA}{27}{subsection.3.4.1}%
-\contentsline {chapter}{\numberline {4}Application cases}{29}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Case: IlMeteo}{30}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}General description}{30}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Study detail}{30}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Sensitive data}{30}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Other vulnerabilities}{30}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2}Case: Pacer}{30}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}General description}{30}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Study detail}{30}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Sensitive data}{30}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Other vulnerabilities}{30}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Case: Waze}{30}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}General description}{30}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Study detail}{30}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Sensitive data}{30}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Other vulnerabilities}{30}{subsection.4.3.4}%
-\contentsline {section}{\numberline {4.4}Case: RadarBot}{30}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}General description}{30}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Study detail}{30}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Sensitive data}{30}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Other vulnerabilities}{30}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Case: GoogleMaps}{30}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}General description}{30}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Study detail}{30}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Sensitive data}{30}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Other vulnerabilities}{30}{subsection.4.5.4}%
-\contentsline {chapter}{\numberline {5}Conclusion}{31}{chapter.5}%
-\contentsline {chapter}{Bibliography}{33}{section*.8}%
+\contentsline {subsection}{\numberline {3.3.2}Objection}{29}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Static analysis}{29}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}GDA}{29}{subsection.3.4.1}%
+\contentsline {chapter}{\numberline {4}Application cases}{31}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Case: IlMeteo}{32}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}General description}{32}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Study detail}{32}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Sensitive data}{32}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Other vulnerabilities}{32}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Case: Pacer}{32}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}General description}{32}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Study detail}{32}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Sensitive data}{32}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Other vulnerabilities}{32}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Case: Waze}{32}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}General description}{32}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Study detail}{32}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Sensitive data}{32}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Other vulnerabilities}{32}{subsection.4.3.4}%
+\contentsline {section}{\numberline {4.4}Case: RadarBot}{32}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}General description}{32}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Study detail}{32}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Sensitive data}{32}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Other vulnerabilities}{32}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Case: GoogleMaps}{32}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}General description}{32}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Study detail}{32}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Sensitive data}{32}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Other vulnerabilities}{32}{subsection.4.5.4}%
+\contentsline {chapter}{\numberline {5}Conclusion}{33}{chapter.5}%
+\contentsline {chapter}{Bibliography}{35}{section*.7}%
