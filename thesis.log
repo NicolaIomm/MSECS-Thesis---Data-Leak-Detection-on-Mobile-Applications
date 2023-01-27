@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.12)  26 JAN 2023 13:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.12)  27 JAN 2023 18:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -753,7 +753,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ] (./thesis.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 3.
+(Font)              <12> on input line 4.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -779,13 +779,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [8] (./chapters/introduction.tex
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -812,7 +813,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 24--26
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
 
  []
 
@@ -824,7 +825,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3]) (./chapters/fundamentals.tex
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -834,6 +839,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--50
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5]) (./chapters/fundamentals.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6]
 Chapter 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
@@ -848,10 +885,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[5
+[7
 
 ]
-<images/tcp-tls-handshake.png, id=373, 2928.9425pt x 1673.25125pt>
+<images/tcp-tls-handshake.png, id=384, 2928.9425pt x 1673.25125pt>
 File: images/tcp-tls-handshake.png Graphic file (type png)
 <use images/tcp-tls-handshake.png>
 Package pdftex.def Info: images/tcp-tls-handshake.png  used on input line 21.
@@ -865,8 +902,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[6]
-<images/tls-certificate-verification.png, id=381, 3011.25pt x 1883.035pt>
+[8]
+<images/tls-certificate-verification.png, id=392, 3011.25pt x 1883.035pt>
 File: images/tls-certificate-verification.png Graphic file (type png)
 <use images/tls-certificate-verification.png>
 Package pdftex.def Info: images/tls-certificate-verification.png  used on input
@@ -881,7 +918,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[7 <./images/tcp-tls-handshake.png>]
+[9 <./images/tcp-tls-handshake.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
@@ -894,7 +931,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[8 <./images/tls-certificate-verification.png>]
+[10 <./images/tls-certificate-verification.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
@@ -911,7 +948,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[9]
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
@@ -924,7 +961,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[10]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
@@ -947,7 +984,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[11]
+[13]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7
 2.
  (d:/TexLive/2022/texmf-dist/tex/latex/lm/t1lmtt.fd
@@ -970,8 +1007,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[12]
-<images/protobuffer.png, id=432, 563.10374pt x 160.6pt>
+[14]
+<images/protobuffer.png, id=443, 563.10374pt x 160.6pt>
 File: images/protobuffer.png Graphic file (type png)
 <use images/protobuffer.png>
 Package pdftex.def Info: images/protobuffer.png  used on input line 83.
@@ -989,8 +1026,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[13 <./images/protobuffer.png>]
-<images/grpc.png, id=446, 554.07pt x 328.22626pt>
+[15 <./images/protobuffer.png>]
+<images/grpc.png, id=457, 554.07pt x 328.22626pt>
 File: images/grpc.png Graphic file (type png)
 <use images/grpc.png>
 Package pdftex.def Info: images/grpc.png  used on input line 99.
@@ -1004,7 +1041,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[14 <./images/grpc.png>]
+[16 <./images/grpc.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1013,7 +1050,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[15]
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
@@ -1040,8 +1077,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[16]
-<images/quic_handshake.png, id=473, 706.13812pt x 415.5525pt>
+[18]
+<images/quic_handshake.png, id=485, 706.13812pt x 415.5525pt>
 File: images/quic_handshake.png Graphic file (type png)
 <use images/quic_handshake.png>
 Package pdftex.def Info: images/quic_handshake.png  used on input line 123.
@@ -1059,7 +1096,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[17 <./images/quic_handshake.png>]
+[19 <./images/quic_handshake.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
@@ -1073,7 +1110,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[18]
+[20]
 Chapter 3.
 
 Underfull \vbox (badness 7362) has occurred while \output is active []
@@ -1087,7 +1124,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[19
+[21
 
 ] (d:/TexLive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
@@ -1110,7 +1147,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[20]
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
 []\T1/lmr/m/n/12 (+20) system-images/android-
  []
@@ -1133,7 +1170,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[21]
+[23]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1142,7 +1179,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[22]
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
@@ -1170,7 +1207,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[23]
+[25]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1179,7 +1216,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[24]
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
@@ -1197,7 +1234,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[25]
+[27]
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
@@ -1208,7 +1245,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--110
  []
 
 
-LaTeX Warning: Reference `use_cases' on page 26 undefined on input line 110.
+LaTeX Warning: Reference `use_cases' on page 28 undefined on input line 110.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 110--111
@@ -1223,25 +1260,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[26]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[27]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
 [28]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[29]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[30]
 Overfull \hbox (4.35739pt too wide) in paragraph at lines 145--148
 \T1/lmr/m/n/12 (-20) The An-droid pro-cess is se-lected by \T1/lmr/m/it/12 (-20
 ) frida.get_usb_device().attach() \T1/lmr/m/n/12 (-20) method.
@@ -1265,7 +1302,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[29]
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
@@ -1278,7 +1315,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[30]) (./chapters/use_cases.tex
+[32]) (./chapters/use_cases.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1287,7 +1324,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[31] [32
+[33] [34
 
 ]
 Chapter 4.
@@ -1303,7 +1340,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[33]
+[35]
 Overfull \vbox (358.64531pt too high) has occurred while \output is active []
 
 
@@ -1315,7 +1352,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[34]
+[36]
 Chapter 5.
 )
 
@@ -1326,42 +1363,42 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[35
+[37
 
-] [36
+] [38
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 87--89
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
 [][]$\T1/lmtt/m/n/12 https : / / commission . europa . eu / law / law-[]topic /
  data-[]protection /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--93
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
 [][]$\T1/lmtt/m/n/12 https : / / www . cloudflare . com / it-[]it / learning / 
 ssl /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--95
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
 [][]$\T1/lmtt/m/n/12 https : / / developer . okta . com / books / api-[]securit
 y / tls /
  []
 
 
-Overfull \hbox (81.42812pt too wide) in paragraph at lines 95--97
+Overfull \hbox (81.42812pt too wide) in paragraph at lines 97--99
 [][]$\T1/lmtt/m/n/12 https : / / digicert . com / blog / certificate-[]pinning-
 []what-[]is-[]certificate-[]pinning$[][] 
  []
 
 
-Overfull \hbox (37.4681pt too wide) in paragraph at lines 97--99
+Overfull \hbox (37.4681pt too wide) in paragraph at lines 99--101
 [][]$\T1/lmtt/m/n/12 https : / / scotthelme . co . uk / using-[]security-[]feat
 ures-[]to-[]do-[]bad-[]things/$[][] 
  []
 
 
-Overfull \hbox (62.3891pt too wide) in paragraph at lines 99--101
+Overfull \hbox (62.3891pt too wide) in paragraph at lines 101--103
 [][]$\T1/lmtt/m/n/12 https : / / appmattus . medium . com / android-[]security-
 []ssl-[]pinning-[]1db8acb6621e$[][] 
  []
@@ -1374,11 +1411,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[37
+[39
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 115--117
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
 [][]$\T1/lmtt/m/n/12 https : / / portswigger . net / burp / documentation / des
 ktop / mobile /
  []
@@ -1391,21 +1428,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[38] (./thesis.aux)
+[40] (./thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: AB79BFC66A2D690199F852901C8453DA;8000.
+(rerunfilecheck)             Checksum: C55C135DCB0DB98C3DA4A38B6E9FE074;8025.
  ) 
 Here is how much of TeX's memory you used:
- 17897 strings out of 475075
- 286309 string characters out of 5783001
- 919878 words of memory out of 5000000
- 38571 multiletter control sequences out of 15000+600000
- 547425 words of font info for 187 fonts, out of 8000000 for 9000
+ 17906 strings out of 475075
+ 286394 string characters out of 5783001
+ 919906 words of memory out of 5000000
+ 38572 multiletter control sequences out of 15000+600000
+ 547651 words of font info for 189 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,13n,131p,1222b,2036s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,13n,131p,1225b,2036s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {d:/TexLive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{d:/TexLive/2022/tex
 mf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{d:/TexLive/2022/texmf-dist/fonts/enc/
 dvips/lm/lm-ts1.enc}<d:/TexLive/2022/texmf-dist/fonts/type1/public/lm/lmbx10.pf
@@ -1418,10 +1455,10 @@ ts/type1/public/lm/lmss17.pfb><d:/TexLive/2022/texmf-dist/fonts/type1/public/lm
 /lmssbx10.pfb><d:/TexLive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><d:/
 TexLive/2022/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><d:/TexLive/2022/texmf
 -dist/fonts/type1/public/lm/lmtt8.pfb>
-Output written on thesis.pdf (46 pages, 707589 bytes).
+Output written on thesis.pdf (48 pages, 712409 bytes).
 PDF statistics:
- 752 PDF objects out of 1000 (max. 8388607)
- 656 compressed objects within 7 object streams
- 180 named destinations out of 1000 (max. 500000)
+ 766 PDF objects out of 1000 (max. 8388607)
+ 668 compressed objects within 7 object streams
+ 184 named destinations out of 1000 (max. 500000)
  46575 words of extra memory for PDF output out of 51595 (max. 10000000)
 
