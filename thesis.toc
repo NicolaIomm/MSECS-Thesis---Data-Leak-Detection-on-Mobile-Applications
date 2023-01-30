@@ -4,52 +4,56 @@
 \contentsline {section}{\numberline {1.1}Application choice}{3}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Goals}{3}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Methodologies}{4}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Collaboration with IPS}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.4}Collaboration with IPS}{5}{section.1.4}%
 \contentsline {chapter}{\numberline {2}Fundamentals}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}HTTPS: HTTP over TLS}{8}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}SSL/TLS Handshake}{8}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Certificate Verification}{9}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Man-in-The-Middle}{10}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}SSL Certificate Pinning}{11}{subsection.2.1.4}%
-\contentsline {subsection}{\numberline {2.1.5}Certificate Transparency}{12}{subsection.2.1.5}%
-\contentsline {section}{\numberline {2.2}Protocol Buffers}{13}{section.2.2}%
-\contentsline {section}{\numberline {2.3}gRPC}{15}{section.2.3}%
-\contentsline {section}{\numberline {2.4}QUIC}{17}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}HTTP/3}{19}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.1.3}Man-in-The-Middle}{11}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}SSL Certificate Pinning}{12}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Certificate Transparency}{13}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.2}Protocol Buffers}{14}{section.2.2}%
+\contentsline {section}{\numberline {2.3}gRPC}{16}{section.2.3}%
+\contentsline {section}{\numberline {2.4}QUIC}{18}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}HTTP/3}{20}{subsection.2.4.1}%
 \contentsline {chapter}{\numberline {3}Testing Environment}{21}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Android Studio}{21}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Android Studio}{22}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Android Virtual Device (AVD)}{22}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Root privileges on virtual device}{23}{subsection.3.1.2}%
 \contentsline {subsection}{\numberline {3.1.3}Android Debug Bridge (adb)}{24}{subsection.3.1.3}%
 \contentsline {section}{\numberline {3.2}Network traffic analysis}{24}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}HttpToolkit}{24}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.1}HttpToolkit}{25}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}BurpSuite}{26}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Wireshark}{27}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Dynamic instrumentation}{28}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Frida}{28}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Objection}{30}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}Static analysis}{31}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}GDA}{32}{subsection.3.4.1}%
-\contentsline {chapter}{\numberline {4}Application cases}{33}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Application case: iLMeteo}{34}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Study detail}{34}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Sensitive data}{34}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Other vulnerabilities}{34}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Application case: Pacer}{34}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Study detail}{34}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Sensitive data}{34}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Other vulnerabilities}{34}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Application case: RadarBot}{34}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Study detail}{34}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Sensitive data}{34}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Other vulnerabilities}{34}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Application case: Waze}{34}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Study detail}{34}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Sensitive data}{34}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Other vulnerabilities}{34}{subsection.4.4.3}%
-\contentsline {section}{\numberline {4.5}Application case: GoogleMaps}{34}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Study detail}{34}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Sensitive data}{34}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Other vulnerabilities}{34}{subsection.4.5.3}%
-\contentsline {chapter}{\numberline {5}Conclusion}{35}{chapter.5}%
-\contentsline {chapter}{Bibliography}{37}{section*.8}%
+\contentsline {subsection}{\numberline {3.2.3}Wireshark}{28}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Dynamic instrumentation}{29}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Frida}{29}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Objection}{31}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Static analysis}{32}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}GDA}{33}{subsection.3.4.1}%
+\contentsline {chapter}{\numberline {4}Application cases}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Application case: iLMeteo}{36}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Study detail}{36}{subsection.4.1.1}%
+\contentsline {subsubsection}{Advertising services}{36}{section*.8}%
+\contentsline {subsubsection}{OneSignal: push notification service}{37}{section*.9}%
+\contentsline {subsubsection}{Firebase: Analytics, Logging and Remote Configuration}{37}{section*.10}%
+\contentsline {subsubsection}{Android API: Location service}{37}{section*.11}%
+\contentsline {subsubsection}{iLMeteo: weather forecast}{38}{section*.12}%
+\contentsline {subsection}{\numberline {4.1.2}Results}{40}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Application case: Pacer}{41}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Study detail}{41}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Sensitive data}{41}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Other vulnerabilities}{41}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Application case: RadarBot}{41}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Study detail}{41}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Sensitive data}{41}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Other vulnerabilities}{41}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Application case: Waze}{41}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Study detail}{41}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Sensitive data}{41}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Other vulnerabilities}{41}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}Application case: GoogleMaps}{41}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Study detail}{41}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Sensitive data}{41}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Other vulnerabilities}{41}{subsection.4.5.3}%
+\contentsline {chapter}{\numberline {5}Conclusion}{43}{chapter.5}%
+\contentsline {chapter}{Bibliography}{45}{section*.13}%
