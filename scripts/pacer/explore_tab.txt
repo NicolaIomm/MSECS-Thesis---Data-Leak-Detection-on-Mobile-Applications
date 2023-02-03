@@ -1,0 +1,55 @@
+
+            {
+              "success": true,
+              "status": 200,
+              "data": {
+                "route": {
+                  "route_id": 140147,
+                  "route_uid": "sr3n9_20200225_0",
+                  "title": "Liceo Scientifico Ettore Majorana",
+                  "route_data": [...],
+                  "geo_stats": {
+                    "route_location": "41.959650,12.707657",
+                    "route_length": 960,
+                    "source_track_duration": 0
+                  },
+                  "share_url": "https://www.mypacer.com/routes/340147?client_id=pacer_android",
+                  "created_at": 1590402547830,
+                  "images": [],
+                  "route_review_statistic": {
+                    "stars": 4,
+                    "reviewer_count": 4
+                  }
+                },
+                "ranger": {
+                  "account": {
+                    "id": 289588825,
+                    "info": {
+                      "display_name": "Maurizio",
+                    }
+                  },
+                },
+                "leaderboard_for_pace": {
+                  "total_checkin_count": 34,
+                  "rankings": [
+                    {
+                      "account": {
+                        "id": 323427766,
+                        "info": {
+                          [...]
+                          "display_name": "Andrea"
+                        }
+                      },
+                      "account": {
+                        "id": 289588825,
+                        "info": {
+                          [...]
+                          "display_name": "Maurizio",
+                        }
+                      }}]
+                  }
+              }
+            }
+
+
+              

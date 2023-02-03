@@ -89,11 +89,13 @@
 \newlabel{sec:wireshark}{{3.2.3}{28}{Wireshark}{subsection.3.2.3}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.3}Dynamic instrumentation}{29}{section.3.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Frida}{29}{subsection.3.3.1}\protected@file@percent }
+\newlabel{subsec:frida}{{3.3.1}{29}{Frida}{subsection.3.3.1}{}}
 \citation{frida}
 \citation{objection}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Objection}{31}{subsection.3.3.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3.4}Static analysis}{32}{section.3.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}GDA}{33}{subsection.3.4.1}\protected@file@percent }
+\newlabel{subsec:gda}{{3.4.1}{33}{GDA}{subsection.3.4.1}{}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {4}Application cases}{35}{chapter.4}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -109,22 +111,55 @@
 \@writefile{toc}{\contentsline {section}{\numberline {4.2}Application case: Pacer}{41}{section.4.2}\protected@file@percent }
 \newlabel{sec:pacer}{{4.2}{41}{Application case: Pacer}{section.4.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Study detail}{41}{subsection.4.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Sensitive data}{41}{subsection.4.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Other vulnerabilities}{41}{subsection.4.2.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Application case: RadarBot}{41}{section.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Study detail}{41}{subsection.4.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Sensitive data}{41}{subsection.4.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}Other vulnerabilities}{41}{subsection.4.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}Application case: Waze}{41}{section.4.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}Study detail}{41}{subsection.4.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}Sensitive data}{41}{subsection.4.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}Other vulnerabilities}{41}{subsection.4.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.5}Application case: GoogleMaps}{41}{section.4.5}\protected@file@percent }
-\newlabel{sec:google_maps}{{4.5}{41}{Application case: GoogleMaps}{section.4.5}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}Study detail}{41}{subsection.4.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.2}Sensitive data}{41}{subsection.4.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.3}Other vulnerabilities}{41}{subsection.4.5.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Conclusion}{43}{chapter.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{New account setup}{41}{section*.13}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Application startup}{43}{section*.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Accessing resources}{43}{section*.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Testing unauthorized access \#1}{46}{section*.16}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Test request \#1\relax }}{46}{figure.caption.17}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Request to own resource}}}{46}{figure.caption.17}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Request to different account resource}}}{46}{figure.caption.17}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{The Authorization header}{47}{section*.18}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Private method \textit  {b}.\relax }}{47}{figure.caption.19}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Static method \textit  {a} and method \textit  {b}, of the class \textit  {b}.\relax }}{48}{figure.caption.20}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Testing unauthorized access \#2}{54}{section*.21}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Test request \#2.\relax }}{55}{figure.caption.22}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Testing unauthorized access \#3}{55}{section*.23}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Test request \#3.\relax }}{56}{figure.caption.24}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{X-Pacer-Access-Token}{56}{section*.25}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces X-Pacer-Access-Token investigation\relax }}{57}{figure.caption.26}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {First request}}}{57}{figure.caption.26}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Before login requests}}}{57}{figure.caption.26}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Login request}}}{57}{figure.caption.26}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {After login requests}}}{57}{figure.caption.26}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Final unauthorized access }{58}{section*.27}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Test request \#4.\relax }}{58}{figure.caption.28}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Changing setting of another user account}{59}{section*.29}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Privacy setting change request.\relax }}{61}{figure.caption.30}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces Before and after the privacy settings change\relax }}{61}{figure.caption.31}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Before the POST request}}}{61}{figure.caption.31}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {After the POST request}}}{61}{figure.caption.31}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Training paths}{62}{section*.32}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Obtaining user account IDs}{62}{section*.33}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces Visiting a path from the Explore tab of the application\relax }}{63}{figure.caption.34}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Pacer application response view}}}{63}{figure.caption.34}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {HTTPS response}}}{63}{figure.caption.34}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Results}{64}{subsection.4.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Private informations leaked}{64}{section*.35}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Other vulnerabilities}{64}{section*.36}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Application case: RadarBot}{65}{section.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Study detail}{65}{subsection.4.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Sensitive data}{65}{subsection.4.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}Other vulnerabilities}{65}{subsection.4.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Application case: Waze}{65}{section.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}Study detail}{65}{subsection.4.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}Sensitive data}{65}{subsection.4.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}Other vulnerabilities}{65}{subsection.4.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Application case: GoogleMaps}{65}{section.4.5}\protected@file@percent }
+\newlabel{sec:google_maps}{{4.5}{65}{Application case: GoogleMaps}{section.4.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}Study detail}{65}{subsection.4.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.2}Sensitive data}{65}{subsection.4.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.3}Other vulnerabilities}{65}{subsection.4.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Conclusion}{67}{chapter.5}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \bibcite{ips}{1}
@@ -138,7 +173,7 @@
 \bibcite{protocol_buffer}{9}
 \bibcite{grpc}{10}
 \bibcite{rfc9000}{11}
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{45}{section*.13}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{69}{section*.37}\protected@file@percent }
 \bibcite{rfc9114}{12}
 \bibcite{rootAVD}{13}
 \bibcite{adb}{14}
@@ -147,4 +182,4 @@
 \bibcite{frida}{17}
 \bibcite{objection}{18}
 \bibcite{gda}{19}
-\gdef \@abspage@last{54}
+\gdef \@abspage@last{78}

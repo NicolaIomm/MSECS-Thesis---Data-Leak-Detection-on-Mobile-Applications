@@ -41,19 +41,32 @@
 \contentsline {subsection}{\numberline {4.1.2}Results}{40}{subsection.4.1.2}%
 \contentsline {section}{\numberline {4.2}Application case: Pacer}{41}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Study detail}{41}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Sensitive data}{41}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Other vulnerabilities}{41}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Application case: RadarBot}{41}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Study detail}{41}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Sensitive data}{41}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Other vulnerabilities}{41}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Application case: Waze}{41}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Study detail}{41}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Sensitive data}{41}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Other vulnerabilities}{41}{subsection.4.4.3}%
-\contentsline {section}{\numberline {4.5}Application case: GoogleMaps}{41}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Study detail}{41}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Sensitive data}{41}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Other vulnerabilities}{41}{subsection.4.5.3}%
-\contentsline {chapter}{\numberline {5}Conclusion}{43}{chapter.5}%
-\contentsline {chapter}{Bibliography}{45}{section*.13}%
+\contentsline {subsubsection}{New account setup}{41}{section*.13}%
+\contentsline {subsubsection}{Application startup}{43}{section*.14}%
+\contentsline {subsubsection}{Accessing resources}{43}{section*.15}%
+\contentsline {subsubsection}{Testing unauthorized access \#1}{46}{section*.16}%
+\contentsline {subsubsection}{The Authorization header}{47}{section*.18}%
+\contentsline {subsubsection}{Testing unauthorized access \#2}{54}{section*.21}%
+\contentsline {subsubsection}{Testing unauthorized access \#3}{55}{section*.23}%
+\contentsline {subsubsection}{X-Pacer-Access-Token}{56}{section*.25}%
+\contentsline {subsubsection}{Final unauthorized access }{58}{section*.27}%
+\contentsline {subsubsection}{Changing setting of another user account}{59}{section*.29}%
+\contentsline {subsubsection}{Training paths}{62}{section*.32}%
+\contentsline {subsubsection}{Obtaining user account IDs}{62}{section*.33}%
+\contentsline {subsection}{\numberline {4.2.2}Results}{64}{subsection.4.2.2}%
+\contentsline {subsubsection}{Private informations leaked}{64}{section*.35}%
+\contentsline {subsubsection}{Other vulnerabilities}{64}{section*.36}%
+\contentsline {section}{\numberline {4.3}Application case: RadarBot}{65}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Study detail}{65}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Sensitive data}{65}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Other vulnerabilities}{65}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Application case: Waze}{65}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Study detail}{65}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Sensitive data}{65}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Other vulnerabilities}{65}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}Application case: GoogleMaps}{65}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Study detail}{65}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Sensitive data}{65}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Other vulnerabilities}{65}{subsection.4.5.3}%
+\contentsline {chapter}{\numberline {5}Conclusion}{67}{chapter.5}%
+\contentsline {chapter}{Bibliography}{69}{section*.37}%

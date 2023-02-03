@@ -1,0 +1,191 @@
+[*] Running cc.pacer.androidapp
+[+] Entering SecretKeySpec()
+[ ] bytes: B7A4DB15-D69A-4C8A-BA68-39E0AA208DB8
+[ ] algo: HmacSHA1
+[-] Leaving SecretKeySpec()
+
+[+] Entering Mac.getInstance()
+[ ] algo: HmacSHA1
+[-] Leaving Mac.getInstance()
+
+[+] Entering Mac.init()
+[ ] key: B7A4DB15-D69A-4C8A-BA68-39E0AA208DB8
+[-] Leaving Mac.init()
+
+[+] Entering Mac.update()
+[ ] bytes: 1668595712
+[-] Leaving Mac.update()
+
+[+] Entering Mac.update()
+[ ] bytes: 573888927
+[-] Leaving Mac.update()
+
+[+] Entering Mac.update()
+[ ] bytes: pt_11b9df93-167d-4d31-b579-6a0cb2197f10
+[-] Leaving Mac.update()
+
+[+] Entering Mac.update()
+[ ] bytes: request_type=on_launch
+[-] Leaving Mac.update()
+
+[+] Entering Mac.update()
+[ ] bytes: /pacer/android/api/v18/accounts/334794565/messages/new_messages_count
+[-] Leaving Mac.update()
+
+[+] Entering SecretKeySpec()
+[ ] bytes: B7A4DB15-D69A-4C8A-BA68-39E0AA208DB8
+[ ] algo: HmacSHA1
+[-] Leaving SecretKeySpec()
+
+[+] Entering Mac.getInstance()
+[ ] algo: HmacSHA1
+[-] Leaving Mac.getInstance()
+
+[+] Entering Mac.init()
+[ ] key: B7A4DB15-D69A-4C8A-BA68-39E0AA208DB8
+[-] Leaving Mac.init()
+
+[+] Entering Mac.update()
+[ ] bytes: 1668595712
+[-] Leaving Mac.update()
+
+[+] Entering Mac.update()
+[ ] bytes: 237021636
+[-] Leaving Mac.update()
+
+[+] Entering Mac.update()
+[ ] bytes: pt_11b9df93-167d-4d31-b579-6a0cb2197f10
+[-] Leaving Mac.update()
+
+[+] Entering Mac.update()
+[ ] bytes: /pacer/android/api/v18/accounts/334794565/organizations
+[-] Leaving Mac.update()
+
+[+] Entering SecretKeySpec()
+[ ] bytes: B7A4DB15-D69A-4C8A-BA68-39E0AA208DB8
+[ ] algo: HmacSHA1
+[-] Leaving SecretKeySpec()
+
+[+] Entering Mac.getInstance()
+[ ] algo: HmacSHA1
+[-] Leaving Mac.getInstance()
+
+[+] Entering SecretKeySpec()
+[ ] bytes: B7A4DB15-D69A-4C8A-BA68-39E0AA208DB8
+[ ] algo: HmacSHA1
+[-] Leaving SecretKeySpec()
+
+[+] Entering Mac.getInstance()
+[ ] algo: HmacSHA1
+[-] Leaving Mac.getInstance()
+
+[+] Entering Mac.init()
+[ ] key: B7A4DB15-D69A-4C8A-BA68-39E0AA208DB8
+[-] Leaving Mac.init()
+
+[+] Entering Mac.update()
+[ ] bytes: 1668595712
+[-] Leaving Mac.update()
+
+[+] Entering Mac.update()
+[ ] bytes: 487241917
+[-] Leaving Mac.update()
+
+[+] Entering Mac.update()
+[ ] bytes: pt_11b9df93-167d-4d31-b579-6a0cb2197f10
+[-] Leaving Mac.update()
+
+[+] Entering Mac.update()
+[ ] bytes: /api/v2.0/stats
+[-] Leaving Mac.update()
+
+[+] Entering Mac.init()
+[ ] key: B7A4DB15-D69A-4C8A-BA68-39E0AA208DB8
+[-] Leaving Mac.init()
+
+[+] Entering Mac.update()
+[ ] bytes: 1668595712
+[-] Leaving Mac.update()
+
+[+] Entering Mac.update()
+[ ] bytes: 288583092
+[-] Leaving Mac.update()
+
+[+] Entering Mac.update()
+[ ] bytes: pt_11b9df93-167d-4d31-b579-6a0cb2197f10
+[-] Leaving Mac.update()
+
+[+] Entering Mac.update()
+[ ] bytes: /pacer/android/api/v18/popup
+[-] Leaving Mac.update()
+
+[+] Entering SecretKeySpec()
+[ ] bytes: B7A4DB15-D69A-4C8A-BA68-39E0AA208DB8
+[ ] algo: HmacSHA1
+[-] Leaving SecretKeySpec()
+
+[+] Entering Mac.getInstance()
+[ ] algo: HmacSHA1
+[-] Leaving Mac.getInstance()
+
+[+] Entering Mac.init()
+[ ] key: B7A4DB15-D69A-4C8A-BA68-39E0AA208DB8
+[-] Leaving Mac.init()
+
+[+] Entering Mac.update()
+[ ] bytes: 1668595712
+[-] Leaving Mac.update()
+
+[+] Entering Mac.update()
+[ ] bytes: 336394575
+[-] Leaving Mac.update()
+
+[+] Entering Mac.update()
+[ ] bytes: pt_11b9df93-167d-4d31-b579-6a0cb2197f10
+[-] Leaving Mac.update()
+
+[+] Entering Mac.update()
+[ ] bytes: app_version=p9.10.2&device_id=7021f2bad994fb65
+[-] Leaving Mac.update()
+
+[+] Entering Mac.update()
+[ ] bytes: 84dfbceabc7185c5513137d08a431767
+[-] Leaving Mac.update()
+
+[+] Entering Mac.update()
+[ ] bytes: /pacer/android/api/v18/accounts/334794565/actions/app_in_foreground
+[-] Leaving Mac.update()
+
+[+] Entering SecretKeySpec()
+[ ] bytes: B7A4DB15-D69A-4C8A-BA68-39E0AA208DB8
+[ ] algo: HmacSHA1
+[-] Leaving SecretKeySpec()
+
+[+] Entering Mac.getInstance()
+[ ] algo: HmacSHA1
+[-] Leaving Mac.getInstance()
+
+[+] Entering Mac.init()
+[ ] key: B7A4DB15-D69A-4C8A-BA68-39E0AA208DB8
+[-] Leaving Mac.init()
+
+[+] Entering Mac.update()
+[ ] bytes: 1668595712
+[-] Leaving Mac.update()
+
+[+] Entering Mac.update()
+[ ] bytes: 205296940
+[-] Leaving Mac.update()
+
+[+] Entering Mac.update()
+[ ] bytes: pt_11b9df93-167d-4d31-b579-6a0cb2197f10
+[-] Leaving Mac.update()
+
+[+] Entering Mac.update()
+[ ] bytes: recommend_competition=true
+[-] Leaving Mac.update()
+
+[+] Entering Mac.update()
+[ ] bytes: /pacer/android/api/v18/pinned_competition_cells
+[-] Leaving Mac.update()
+
