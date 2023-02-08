@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.12)  2 FEB 2023 12:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.12)  8 FEB 2023 19:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1828,8 +1828,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[64]) (./chapters/cases/RadarBot.tex) (./chapters/cases/Waze.tex)
-(./chapters/cases/GoogleMaps.tex)) (./chapters/conclusion.tex
+[64]) (./chapters/cases/RadarBot.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1838,9 +1846,182 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[65] [66
+[65]
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
-]
+ []
+
+
+Overfull \hbox (19.79237pt too wide) in paragraph at lines 16--17
+[]\T1/lmr/m/n/12 (-20) Right af-ter a new POST re-quest is is-sued on the re-so
+urce \T1/lmr/bx/n/12 (-20) ws_get_licence.php\T1/lmr/m/n/12 (-20) .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+<images/radarbot_alerts1.png, id=1105, 317.68687pt x 584.93532pt>
+File: images/radarbot_alerts1.png Graphic file (type png)
+<use images/radarbot_alerts1.png>
+Package pdftex.def Info: images/radarbot_alerts1.png  used on input line 25.
+(pdftex.def)             Requested size: 178.19879pt x 328.11491pt.
+<images/radarbot_alerts2.png, id=1106, 368.87813pt x 654.19406pt>
+File: images/radarbot_alerts2.png Graphic file (type png)
+<use images/radarbot_alerts2.png>
+Package pdftex.def Info: images/radarbot_alerts2.png  used on input line 28.
+(pdftex.def)             Requested size: 178.19879pt x 316.02599pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[66]
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[67 <./images/radarbot_alerts1.png> <./images/radarbot_alerts2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+<images/radarbot_request.png, id=1120, 447.17062pt x 351.56343pt>
+File: images/radarbot_request.png Graphic file (type png)
+<use images/radarbot_request.png>
+Package pdftex.def Info: images/radarbot_request.png  used on input line 51.
+(pdftex.def)             Requested size: 356.39758pt x 280.20505pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[68]
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[69 <./images/radarbot_request.png>]
+<images/radarbot_gda.png, id=1132, 392.96812pt x 676.02562pt>
+File: images/radarbot_gda.png Graphic file (type png)
+<use images/radarbot_gda.png>
+Package pdftex.def Info: images/radarbot_gda.png  used on input line 65.
+(pdftex.def)             Requested size: 356.39758pt x 613.15215pt.
+
+
+LaTeX Warning: Float too large for page by 1.25214pt on input line 67.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+<images/radarbot_removealert.png, id=1134, 736.25063pt x 276.28218pt>
+File: images/radarbot_removealert.png Graphic file (type png)
+<use images/radarbot_removealert.png>
+Package pdftex.def Info: images/radarbot_removealert.png  used on input line 79
+.
+(pdftex.def)             Requested size: 356.39758pt x 133.74374pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[70]
+Overfull \hbox (26.06253pt too wide) in paragraph at lines 82--84
+\T1/lmr/m/n/12 (-20) the mes-sage \T1/lmr/m/it/12 (-20) "code": 4,"mes-sage": "
+CANT_REMOVE_OTHER_USERS_ALERTS"\T1/lmr/m/n/12 (-20) .
+ []
+
+<images/radarbot_changeemail.png, id=1140, 733.99219pt x 320.69812pt>
+File: images/radarbot_changeemail.png Graphic file (type png)
+<use images/radarbot_changeemail.png>
+Package pdftex.def Info: images/radarbot_changeemail.png  used on input line 89
+.
+(pdftex.def)             Requested size: 356.39758pt x 155.71945pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[71]) (./chapters/cases/Waze.tex) (./chapters/cases/GoogleMaps.tex))
+(./chapters/conclusion.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[72]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[73 <./images/radarbot_gda.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[74 <./images/radarbot_removealert.png> <./images/radarbot_changeemail.png>]
 Chapter 5.
 )
 
@@ -1851,7 +2032,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[67] [68
+[75
+
+] [76
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 90--92
@@ -1897,7 +2080,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[69
+[77
 
 
 ]
@@ -1914,19 +2097,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[70] (./thesis.aux)
+[78] (./thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1F146412AC1A2EA75FA42CB5EF8ED8D6;7125.
+(rerunfilecheck)             Checksum: 8453CCB81FB44DC100056D711D29685E;7125.
  ) 
 Here is how much of TeX's memory you used:
- 18962 strings out of 475075
- 302239 string characters out of 5783001
- 1200890 words of memory out of 5000000
- 39184 multiletter control sequences out of 15000+600000
- 556396 words of font info for 205 fonts, out of 8000000 for 9000
+ 19038 strings out of 475075
+ 303930 string characters out of 5783001
+ 1200967 words of memory out of 5000000
+ 39221 multiletter control sequences out of 15000+600000
+ 557010 words of font info for 211 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,13n,131p,1225b,2047s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {d:/TexLive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{d:/TexLive/2022/tex
@@ -1942,10 +2125,10 @@ ts/type1/public/lm/lmss12.pfb><d:/TexLive/2022/texmf-dist/fonts/type1/public/lm
 TexLive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><d:/TexLive/2022/texmf
 -dist/fonts/type1/public/lm/lmtt12.pfb><d:/TexLive/2022/texmf-dist/fonts/type1/
 public/lm/lmtt8.pfb>
-Output written on thesis.pdf (78 pages, 1515544 bytes).
+Output written on thesis.pdf (86 pages, 1759836 bytes).
 PDF statistics:
- 1334 PDF objects out of 1440 (max. 8388607)
- 1167 compressed objects within 12 object streams
- 561 named destinations out of 1000 (max. 500000)
- 50695 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1398 PDF objects out of 1440 (max. 8388607)
+ 1211 compressed objects within 13 object streams
+ 582 named destinations out of 1000 (max. 500000)
+ 50725 words of extra memory for PDF output out of 51595 (max. 10000000)
 

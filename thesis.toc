@@ -58,15 +58,19 @@
 \contentsline {subsubsection}{Other vulnerabilities}{64}{section*.36}%
 \contentsline {section}{\numberline {4.3}Application case: RadarBot}{65}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Study detail}{65}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Sensitive data}{65}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Other vulnerabilities}{65}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Application case: Waze}{65}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Study detail}{65}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Sensitive data}{65}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Other vulnerabilities}{65}{subsection.4.4.3}%
-\contentsline {section}{\numberline {4.5}Application case: GoogleMaps}{65}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Study detail}{65}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Sensitive data}{65}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Other vulnerabilities}{65}{subsection.4.5.3}%
-\contentsline {chapter}{\numberline {5}Conclusion}{67}{chapter.5}%
-\contentsline {chapter}{Bibliography}{69}{section*.37}%
+\contentsline {subsubsection}{RadarBotServices requests}{66}{section*.37}%
+\contentsline {subsection}{\numberline {4.3.2}Sensitive data}{68}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Other vulnerabilities}{68}{subsection.4.3.3}%
+\contentsline {subsubsection}{Forging requests}{69}{section*.40}%
+\contentsline {subsubsection}{Test: remove other users alerts}{70}{section*.42}%
+\contentsline {subsubsection}{Test: modifying user informations}{71}{section*.44}%
+\contentsline {section}{\numberline {4.4}Application case: Waze}{72}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Study detail}{72}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Sensitive data}{72}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Other vulnerabilities}{72}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}Application case: GoogleMaps}{72}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Study detail}{72}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Sensitive data}{72}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Other vulnerabilities}{72}{subsection.4.5.3}%
+\contentsline {chapter}{\numberline {5}Conclusion}{75}{chapter.5}%
+\contentsline {chapter}{Bibliography}{77}{section*.46}%
