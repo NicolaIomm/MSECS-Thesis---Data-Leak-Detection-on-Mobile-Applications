@@ -54,32 +54,33 @@
 \contentsline {subsubsection}{Training paths}{50}{section*.32}%
 \contentsline {subsubsection}{Obtaining user account IDs}{51}{section*.33}%
 \contentsline {subsection}{\numberline {4.2.2}Results}{52}{subsection.4.2.2}%
-\contentsline {subsubsection}{Private informations leaked}{53}{section*.35}%
+\contentsline {subsubsection}{Private informations leaked}{52}{section*.35}%
 \contentsline {subsubsection}{Other vulnerabilities}{53}{section*.36}%
 \contentsline {section}{\numberline {4.3}Application case: RadarBot}{54}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Study detail}{54}{subsection.4.3.1}%
-\contentsline {subsubsection}{RadarBotServices requests}{55}{section*.37}%
-\contentsline {subsection}{\numberline {4.3.2}Results}{56}{subsection.4.3.2}%
-\contentsline {subsubsection}{Sensitive data}{56}{section*.39}%
-\contentsline {subsubsection}{Other vulnerabilities}{57}{section*.40}%
-\contentsline {subsubsection}{Forging requests}{58}{section*.42}%
-\contentsline {subsubsection}{Test: remove other users alerts}{60}{section*.44}%
-\contentsline {subsubsection}{Test: modifying user informations}{60}{section*.46}%
+\contentsline {subsubsection}{RadarBotServices requests}{54}{section*.37}%
+\contentsline {subsubsection}{Other vulnerabilities}{56}{section*.39}%
+\contentsline {subsubsection}{Forging requests}{57}{section*.41}%
+\contentsline {subsubsection}{Test: remove other users alerts}{58}{section*.43}%
+\contentsline {subsubsection}{Test: modifying user informations}{59}{section*.45}%
+\contentsline {subsection}{\numberline {4.3.2}Results}{59}{subsection.4.3.2}%
+\contentsline {subsubsection}{Sensitive data}{59}{section*.47}%
+\contentsline {subsubsection}{Other vulnerabilities}{60}{section*.48}%
 \contentsline {section}{\numberline {4.4}Application case: Waze}{61}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Study detail}{61}{subsection.4.4.1}%
-\contentsline {subsubsection}{Pre-Login phase}{63}{section*.49}%
-\contentsline {subsubsection}{Login phase}{66}{section*.51}%
-\contentsline {subsubsection}{Post-login phase}{67}{section*.54}%
-\contentsline {subsubsection}{Idle behaviour}{69}{section*.56}%
-\contentsline {subsubsection}{Moving the map}{70}{section*.59}%
-\contentsline {subsubsection}{Informations retrieved by Waze servers}{71}{section*.61}%
-\contentsline {subsubsection}{Other users informations}{72}{section*.62}%
-\contentsline {subsubsection}{UserIDs and Usernames}{74}{section*.64}%
-\contentsline {subsection}{\numberline {4.4.2}Results}{74}{subsection.4.4.2}%
-\contentsline {subsubsection}{Private informations}{74}{section*.65}%
+\contentsline {subsubsection}{Pre-Login phase}{63}{section*.50}%
+\contentsline {subsubsection}{Login phase}{64}{section*.52}%
+\contentsline {subsubsection}{Post-login phase}{66}{section*.55}%
+\contentsline {subsubsection}{Idle behaviour}{67}{section*.57}%
+\contentsline {subsubsection}{Moving the map}{69}{section*.60}%
+\contentsline {subsubsection}{Body response Structure}{71}{section*.62}%
+\contentsline {subsubsection}{Waze users informations}{72}{section*.63}%
+\contentsline {subsubsection}{UserIDs and Usernames}{73}{section*.65}%
+\contentsline {subsection}{\numberline {4.4.2}Results}{73}{subsection.4.4.2}%
+\contentsline {subsubsection}{Private informations}{74}{section*.66}%
 \contentsline {section}{\numberline {4.5}Application case: GoogleMaps}{75}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Study detail}{75}{subsection.4.5.1}%
 \contentsline {subsection}{\numberline {4.5.2}Sensitive data}{75}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}Other vulnerabilities}{75}{subsection.4.5.3}%
 \contentsline {chapter}{\numberline {5}Conclusion}{77}{chapter.5}%
-\contentsline {chapter}{Bibliography}{79}{section*.66}%
+\contentsline {chapter}{Bibliography}{79}{section*.67}%

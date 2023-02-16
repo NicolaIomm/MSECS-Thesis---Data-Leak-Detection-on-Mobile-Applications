@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.12)  16 FEB 2023 12:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.12)  16 FEB 2023 18:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1234,130 +1234,132 @@ Underfull \hbox (badness 10000) in paragraph at lines 495--496
 File: images/pacer_path_1.png Graphic file (type png)
 <use images/pacer_path_1.png>
 Package pdftex.def Info: images/pacer_path_1.png  used on input line 506.
-(pdftex.def)             Requested size: 178.19879pt x 356.40039pt.
+(pdftex.def)             Requested size: 138.60242pt x 277.20349pt.
 <images/pacer_path_2.png, id=1029, 367.3725pt x 665.48625pt>
 File: images/pacer_path_2.png Graphic file (type png)
 <use images/pacer_path_2.png>
 Package pdftex.def Info: images/pacer_path_2.png  used on input line 509.
-(pdftex.def)             Requested size: 178.19879pt x 322.81122pt.
+(pdftex.def)             Requested size: 138.60242pt x 251.0799pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 513--514
 
  []
 
-
-Underfull \vbox (badness 4660) has occurred while \output is active []
-
- [52 <./images/pacer_path_1.PNG> <./images/pacer_path_2.PNG>] [53])
+[52 <./images/pacer_path_1.PNG> <./images/pacer_path_2.PNG>] [53])
 (./chapters/cases/RadarBot.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
 [54]
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
 
-<images/radarbot_alerts1.png, id=1052, 317.68687pt x 584.93532pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+
+ []
+
+<images/radarbot_alerts1.png, id=1054, 317.68687pt x 584.93532pt>
 File: images/radarbot_alerts1.png Graphic file (type png)
 <use images/radarbot_alerts1.png>
-Package pdftex.def Info: images/radarbot_alerts1.png  used on input line 27.
-(pdftex.def)             Requested size: 178.19879pt x 328.11491pt.
-<images/radarbot_alerts2.png, id=1053, 368.87813pt x 654.19406pt>
+Package pdftex.def Info: images/radarbot_alerts1.png  used on input line 39.
+(pdftex.def)             Requested size: 99.0pt x 182.28308pt.
+<images/radarbot_alerts2.png, id=1055, 368.87813pt x 654.19406pt>
 File: images/radarbot_alerts2.png Graphic file (type png)
 <use images/radarbot_alerts2.png>
-Package pdftex.def Info: images/radarbot_alerts2.png  used on input line 30.
-(pdftex.def)             Requested size: 178.19879pt x 316.02599pt.
+Package pdftex.def Info: images/radarbot_alerts2.png  used on input line 42.
+(pdftex.def)             Requested size: 99.0pt x 175.56665pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 34--45
+
+ []
+
+
+Underfull \vbox (badness 2698) has occurred while \output is active []
 
  [55]
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-[56 <./images/radarbot_alerts1.png> <./images/radarbot_alerts2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
-<images/radarbot_request.png, id=1068, 447.17062pt x 351.56343pt>
+<images/radarbot_request.png, id=1062, 447.17062pt x 351.56343pt>
 File: images/radarbot_request.png Graphic file (type png)
 <use images/radarbot_request.png>
-Package pdftex.def Info: images/radarbot_request.png  used on input line 55.
-(pdftex.def)             Requested size: 356.39758pt x 280.20505pt.
+Package pdftex.def Info: images/radarbot_request.png  used on input line 52.
+(pdftex.def)             Requested size: 237.60242pt x 186.80516pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--57
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--61
+Underfull \hbox (badness 10000) in paragraph at lines 49--54
 
  []
 
-[57 <./images/radarbot_request.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
 
  []
 
-<images/radarbot_gda.png, id=1076, 392.96812pt x 676.02562pt>
+[56 <./images/radarbot_alerts1.png> <./images/radarbot_alerts2.png> <./images/r
+adarbot_request.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+<images/radarbot_gda.png, id=1074, 392.96812pt x 676.02562pt>
 File: images/radarbot_gda.png Graphic file (type png)
 <use images/radarbot_gda.png>
-Package pdftex.def Info: images/radarbot_gda.png  used on input line 68.
-(pdftex.def)             Requested size: 198.0pt x 340.63206pt.
+Package pdftex.def Info: images/radarbot_gda.png  used on input line 65.
+(pdftex.def)             Requested size: 158.39758pt x 272.49945pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
- [58]
+ []
+
+[57 <./images/radarbot_gda.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--74
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
-
- []
-
-[59 <./images/radarbot_gda.png>]
-<images/radarbot_removealert.png, id=1090, 736.25063pt x 276.28218pt>
+<images/radarbot_removealert.png, id=1083, 736.25063pt x 276.28218pt>
 File: images/radarbot_removealert.png Graphic file (type png)
 <use images/radarbot_removealert.png>
-Package pdftex.def Info: images/radarbot_removealert.png  used on input line 82
+Package pdftex.def Info: images/radarbot_removealert.png  used on input line 79
 .
-(pdftex.def)             Requested size: 316.80121pt x 118.88333pt.
+(pdftex.def)             Requested size: 356.39758pt x 133.74374pt.
+[58 <./images/radarbot_removealert.png>]
 <images/radarbot_changeemail.png, id=1091, 733.99219pt x 320.69812pt>
 File: images/radarbot_changeemail.png Graphic file (type png)
 <use images/radarbot_changeemail.png>
-Package pdftex.def Info: images/radarbot_changeemail.png  used on input line 92
+Package pdftex.def Info: images/radarbot_changeemail.png  used on input line 89
 .
 (pdftex.def)             Requested size: 356.39758pt x 155.71945pt.
+ [59 <./images/radarbot_changeemail.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (./chapters/cases/Waze.tex [60 <./images/radarbot_removealert.png>]
+) (./chapters/cases/Waze.tex [60]
 Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
@@ -1372,136 +1374,152 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-[61 <./images/radarbot_changeemail.png>]
+[61]
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
-<images/waze_phases.png, id=1107, 400.49625pt x 243.91125pt>
+<images/waze_phases.png, id=1111, 400.49625pt x 170.13562pt>
 File: images/waze_phases.png Graphic file (type png)
 <use images/waze_phases.png>
-Package pdftex.def Info: images/waze_phases.png  used on input line 21.
-(pdftex.def)             Requested size: 316.80121pt x 192.94829pt.
+Package pdftex.def Info: images/waze_phases.png  used on input line 22.
+(pdftex.def)             Requested size: 316.80121pt x 134.58737pt.
 
-Underfull \vbox (badness 3482) has occurred while \output is active []
-
- [62]
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-<images/waze_staticbody.png, id=1115, 438.8897pt x 517.18219pt>
+[62 <./images/waze_phases.png>]
+<images/waze_staticbody.png, id=1121, 438.8897pt x 517.18219pt>
 File: images/waze_staticbody.png Graphic file (type png)
 <use images/waze_staticbody.png>
-Package pdftex.def Info: images/waze_staticbody.png  used on input line 30.
+Package pdftex.def Info: images/waze_staticbody.png  used on input line 31.
 (pdftex.def)             Requested size: 316.80121pt x 373.32576pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [63 <./images/waze_phases.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--38
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-[64 <./images/waze_staticbody.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 38--41
+[63 <./images/waze_staticbody.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
-[65]
-<images/waze_loginbody.png, id=1134, 429.10312pt x 606.76688pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--50
+
+ []
+
+<images/waze_loginbody.png, id=1129, 429.10312pt x 606.76688pt>
 File: images/waze_loginbody.png Graphic file (type png)
 <use images/waze_loginbody.png>
-Package pdftex.def Info: images/waze_loginbody.png  used on input line 48.
-(pdftex.def)             Requested size: 316.80121pt x 447.97276pt.
+Package pdftex.def Info: images/waze_loginbody.png  used on input line 56.
+(pdftex.def)             Requested size: 237.60242pt x 335.98189pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--56
+Underfull \vbox (badness 5802) has occurred while \output is active []
+
+ [64]
+Underfull \hbox (badness 10000) in paragraph at lines 59--64
 
  []
 
-[66 <./images/waze_loginbody.png>]
-<images/waze_loginaccountinfo.png, id=1142, 258.21469pt x 465.23813pt>
+<images/waze_loginaccountinfo.png, id=1138, 258.21469pt x 465.23813pt>
 File: images/waze_loginaccountinfo.png Graphic file (type png)
 <use images/waze_loginaccountinfo.png>
 Package pdftex.def Info: images/waze_loginaccountinfo.png  used on input line 6
-0.
+9.
 (pdftex.def)             Requested size: 118.80121pt x 214.04762pt.
-<images/waze_logintoken.png, id=1143, 415.5525pt x 246.1697pt>
+[65 <./images/waze_loginbody.png>]
+<images/waze_logintoken.png, id=1146, 415.5525pt x 246.1697pt>
 File: images/waze_logintoken.png Graphic file (type png)
 <use images/waze_logintoken.png>
-Package pdftex.def Info: images/waze_logintoken.png  used on input line 73.
+Package pdftex.def Info: images/waze_logintoken.png  used on input line 82.
 (pdftex.def)             Requested size: 237.60242pt x 140.75389pt.
- [67 <./images/waze_loginaccountinfo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66 <./images/waze_loginaccountinfo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
-[68 <./images/waze_logintoken.png>]
-<images/waze_idle.png, id=1160, 469.00218pt x 657.2053pt>
+<images/waze_idle.png, id=1154, 469.00218pt x 657.2053pt>
 File: images/waze_idle.png Graphic file (type png)
 <use images/waze_idle.png>
-Package pdftex.def Info: images/waze_idle.png  used on input line 94.
+Package pdftex.def Info: images/waze_idle.png  used on input line 103.
 (pdftex.def)             Requested size: 277.19879pt x 388.42967pt.
-<images/waze_idle4pointsapp.png, id=1161, 635.37375pt x 490.08093pt>
+[67 <./images/waze_logintoken.png>]
+<images/waze_idle4pointsapp.png, id=1165, 635.37375pt x 490.08093pt>
 File: images/waze_idle4pointsapp.png Graphic file (type png)
 <use images/waze_idle4pointsapp.png>
-Package pdftex.def Info: images/waze_idle4pointsapp.png  used on input line 103
+Package pdftex.def Info: images/waze_idle4pointsapp.png  used on input line 112
 .
 (pdftex.def)             Requested size: 277.19879pt x 213.81912pt.
- [69 <./images/waze_idle.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+ [68 <./images/waze_idle.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
-[70 <./images/waze_idle4pointsapp.png>]
-<images/waze_MapDisplayed_coord_combined.png, id=1179, 498.36188pt x 631.60968p
+<images/waze_MapDisplayed_coord_combined.png, id=1172, 498.36188pt x 631.60968p
 t>
 File: images/waze_MapDisplayed_coord_combined.png Graphic file (type png)
 <use images/waze_MapDisplayed_coord_combined.png>
 Package pdftex.def Info: images/waze_MapDisplayed_coord_combined.png  used on i
-nput line 121.
+nput line 130.
 (pdftex.def)             Requested size: 158.39758pt x 200.74104pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--123
+Underfull \hbox (badness 10000) in paragraph at lines 127--132
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
-
- []
-
-[71 <./images/waze_MapDisplayed_coord_combined.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+[69 <./images/waze_idle4pointsapp.png>] [70 <./images/waze_MapDisplayed_coord_c
+ombined.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
-<images/waze_userinfo.png, id=1190, 573.64313pt x 685.05937pt>
+[71]
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+<images/waze_userinfo.png, id=1197, 573.64313pt x 685.05937pt>
 File: images/waze_userinfo.png Graphic file (type png)
 <use images/waze_userinfo.png>
-Package pdftex.def Info: images/waze_userinfo.png  used on input line 142.
-(pdftex.def)             Requested size: 237.60242pt x 283.75078pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [72]
-[73 <./images/waze_userinfo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Package pdftex.def Info: images/waze_userinfo.png  used on input line 153.
+(pdftex.def)             Requested size: 316.80121pt x 378.34134pt.
+[72 <./images/waze_userinfo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
-
-Overfull \hbox (3.96767pt too wide) in paragraph at lines 174--175
+[73]
+Overfull \hbox (3.96767pt too wide) in paragraph at lines 185--186
 []\T1/lmr/m/n/10 (-20) Device in-for-ma-tions: \T1/lmr/m/it/10 (-20) de-vice_ma
 nufacturer\T1/lmr/m/n/10 (-20) , \T1/lmr/m/it/10 (-20) de-vice_model\T1/lmr/m/n
 /10 (-20) , \T1/lmr/m/it/10 (-20) user_agent\T1/lmr/m/n/10 (-20) , \T1/lmr/m/it
@@ -1509,7 +1527,7 @@ nufacturer\T1/lmr/m/n/10 (-20) , \T1/lmr/m/it/10 (-20) de-vice_model\T1/lmr/m/n
  []
 
 
-Overfull \hbox (22.71423pt too wide) in paragraph at lines 175--176
+Overfull \hbox (22.71423pt too wide) in paragraph at lines 186--187
 []\T1/lmr/m/n/10 (-20) Account and User in-for-ma-tions: \T1/lmr/m/it/10 (-20) 
 first_name\T1/lmr/m/n/10 (-20) , \T1/lmr/m/it/10 (-20) last_name\T1/lmr/m/n/10 
 (-20) , \T1/lmr/m/it/10 (-20) email\T1/lmr/m/n/10 (-20) , \T1/lmr/m/it/10 (-20)
@@ -1517,7 +1535,7 @@ first_name\T1/lmr/m/n/10 (-20) , \T1/lmr/m/it/10 (-20) last_name\T1/lmr/m/n/10
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
 
@@ -1566,14 +1584,14 @@ ktop / mobile /
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1ADFB6EE715C8E65BFFD70F9931C687F;6709.
+(rerunfilecheck)             Checksum: FA602D1A005001154192D428E4CE90AA;6709.
  ) 
 Here is how much of TeX's memory you used:
- 19252 strings out of 475075
- 308090 string characters out of 5783001
+ 19261 strings out of 475075
+ 308167 string characters out of 5783001
  1109839 words of memory out of 5000000
  39368 multiletter control sequences out of 15000+600000
- 566573 words of font info for 223 fonts, out of 8000000 for 9000
+ 566667 words of font info for 224 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,13n,131p,1225b,2061s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {d:/TexLive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{d:/TexLive/2022/tex
@@ -1591,10 +1609,10 @@ onts/type1/public/lm/lmss17.pfb><d:/TexLive/2022/texmf-dist/fonts/type1/public/
 lm/lmssbx10.pfb><d:/TexLive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><d
 :/TexLive/2022/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><d:/TexLive/2022/tex
 mf-dist/fonts/type1/public/lm/lmtt8.pfb>
-Output written on thesis.pdf (88 pages, 2412680 bytes).
+Output written on thesis.pdf (88 pages, 2406229 bytes).
 PDF statistics:
- 1465 PDF objects out of 1728 (max. 8388607)
- 1254 compressed objects within 13 object streams
- 613 named destinations out of 1000 (max. 500000)
+ 1473 PDF objects out of 1728 (max. 8388607)
+ 1262 compressed objects within 13 object streams
+ 620 named destinations out of 1000 (max. 500000)
  56898 words of extra memory for PDF output out of 61914 (max. 10000000)
 
